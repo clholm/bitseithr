@@ -6066,7 +6066,7 @@
 	)
 	(text "TO AUDIO\nJACK 2"
 		(exclude_from_sim no)
-		(at 176.784 140.208 0)
+		(at 183.134 145.288 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6085,9 +6085,19 @@
 		)
 		(uuid "05c80183-c28b-422d-af13-f0995ad67cae")
 	)
+	(text "FROM VOLUME \nPOT 1"
+		(exclude_from_sim no)
+		(at 125.73 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ae9c999-abb7-4e0a-b62b-87f2774d9411")
+	)
 	(text "TO AUDIO\nJACK 1"
 		(exclude_from_sim no)
-		(at 184.15 121.92 0)
+		(at 190.5 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6117,6 +6127,28 @@
 		)
 		(uuid "56ea4493-6c8e-454b-a4ab-03536915f504")
 	)
+	(text "TO SHIELD\nVOLUME 1"
+		(exclude_from_sim no)
+		(at 144.78 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5bd7af07-61dc-49e5-abd1-ec3309b9d151")
+	)
+	(text "(PIGTAILED)"
+		(exclude_from_sim no)
+		(at 145.796 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61267c1d-f9be-45f8-87c4-34344dde7850")
+	)
 	(text "FROM 9V\nSW IN"
 		(exclude_from_sim no)
 		(at 179.324 28.448 0)
@@ -6126,6 +6158,27 @@
 			)
 		)
 		(uuid "79785304-8082-4034-93dd-ba13dfa9a900")
+	)
+	(text "TO SHIELD\nVOLUME 2"
+		(exclude_from_sim no)
+		(at 156.21 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86f56171-3b2c-43b0-8868-d46a57c6a038")
+	)
+	(text "FROM VOLUME \nPOT 2"
+		(exclude_from_sim no)
+		(at 125.73 117.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c280e412-f2fe-4d3c-9418-3d3ba38d86b0")
 	)
 	(text "* Indicates a PWM-capable pin"
 		(exclude_from_sim no)
@@ -6225,6 +6278,12 @@
 		(uuid "425c53eb-d34c-4649-a4fc-00c51cb67d6e")
 	)
 	(junction
+		(at 121.92 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4465e689-d6f5-4bb1-9cdc-ef4bb51634ac")
+	)
+	(junction
 		(at 101.6 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6237,13 +6296,7 @@
 		(uuid "48ab88d7-7084-4d02-b109-3ad55a30bb11")
 	)
 	(junction
-		(at 101.6 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cf4d629-70ec-4698-bc80-170dbb9b3904")
-	)
-	(junction
-		(at 193.04 149.86)
+		(at 196.85 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b690f1d-7292-41d0-8163-a44cf47b8833")
@@ -6291,7 +6344,13 @@
 		(uuid "94990524-4806-4129-9b2a-af866317b3e1")
 	)
 	(junction
-		(at 203.2 149.86)
+		(at 121.92 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b66d66-0e94-4044-a4ad-1125a317bdc7")
+	)
+	(junction
+		(at 207.01 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0ef0e03-e823-4162-927e-879690ed4904")
@@ -6315,12 +6374,6 @@
 		(uuid "bbfb0afc-527f-44ba-bd31-a817a2c834f6")
 	)
 	(junction
-		(at 118.11 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c67cf491-8b06-4650-a5fe-48f1ff974094")
-	)
-	(junction
 		(at 115.57 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6339,22 +6392,10 @@
 		(uuid "d9b18ee7-d181-4fd3-88bb-d5a03c92ea8a")
 	)
 	(junction
-		(at 118.11 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd45cebc-ca8b-439b-bbdd-c168f8b0f3f9")
-	)
-	(junction
 		(at 138.43 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e425048a-d890-4016-9ab0-71a391ae1ae6")
-	)
-	(junction
-		(at 101.6 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eec482ad-ed32-42c4-a53e-44e167737cf3")
 	)
 	(junction
 		(at 138.43 144.78)
@@ -6400,16 +6441,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 46.99) (xy 111.76 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "004998bd-ea97-4335-93fe-f1cc4ec08d15")
-	)
-	(wire
-		(pts
 			(xy 179.07 57.15) (xy 190.5 57.15)
 		)
 		(stroke
@@ -6437,16 +6468,6 @@
 			(type default)
 		)
 		(uuid "015655d2-5083-43ae-a428-01fe0bae06be")
-	)
-	(wire
-		(pts
-			(xy 97.79 220.98) (xy 104.14 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02781dc7-0b04-427c-b535-598a4388b8ae")
 	)
 	(wire
 		(pts
@@ -6550,6 +6571,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 124.46) (xy 144.78 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c90a2f7-3fd2-4754-9f40-4e6c0c526782")
+	)
+	(wire
+		(pts
 			(xy 83.82 142.24) (xy 83.82 149.86)
 		)
 		(stroke
@@ -6640,6 +6671,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 130.81) (xy 138.43 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17231db2-fb9c-467a-98da-94e192a3dc26")
+	)
+	(wire
+		(pts
 			(xy 219.71 119.38) (xy 214.63 119.38)
 		)
 		(stroke
@@ -6657,16 +6698,6 @@
 			(type default)
 		)
 		(uuid "18cd3259-26fd-492d-9bc3-8a966edb4cae")
-	)
-	(wire
-		(pts
-			(xy 97.79 210.82) (xy 97.79 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a9fece1-e1de-42a6-8629-a625ac40b839")
 	)
 	(wire
 		(pts
@@ -6770,16 +6801,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 127) (xy 118.11 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "213363a6-1508-4672-9d25-9eb8d1070caa")
-	)
-	(wire
-		(pts
 			(xy 170.18 22.86) (xy 173.99 22.86)
 		)
 		(stroke
@@ -6830,7 +6851,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 139.7) (xy 193.04 142.24)
+			(xy 196.85 139.7) (xy 196.85 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7010,7 +7031,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 134.62) (xy 171.45 134.62)
+			(xy 173.99 139.7) (xy 177.8 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7040,7 +7061,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 158.75) (xy 203.2 157.48)
+			(xy 207.01 158.75) (xy 207.01 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7050,13 +7071,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 217.17) (xy 101.6 210.82)
+			(xy 154.94 118.11) (xy 153.67 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e8fa159-79f5-4ce1-abed-b47c568f2c8e")
+		(uuid "3d24ca9d-9b3b-4bc0-8b10-030b8bbd3e4b")
 	)
 	(wire
 		(pts
@@ -7090,6 +7111,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 50.8) (xy 124.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c3c139-a87e-44fc-a6f0-65eb6c0fb82a")
+	)
+	(wire
+		(pts
 			(xy 111.76 100.33) (xy 111.76 101.6)
 		)
 		(stroke
@@ -7107,16 +7138,6 @@
 			(type solid)
 		)
 		(uuid "4227fa6f-c399-4f14-8228-23e39d2b7e7d")
-	)
-	(wire
-		(pts
-			(xy 124.46 43.18) (xy 118.11 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428c7709-1a2b-4f91-83d9-50802d44a8b8")
 	)
 	(wire
 		(pts
@@ -7220,6 +7241,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 120.65) (xy 151.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499a7082-210c-45ed-8ddd-1600d5cf7ac5")
+	)
+	(wire
+		(pts
 			(xy 255.27 39.37) (xy 267.97 39.37)
 		)
 		(stroke
@@ -7290,16 +7321,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 130.81) (xy 138.43 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f5140c1-9039-4902-9d73-21ddf2f6d8d6")
-	)
-	(wire
-		(pts
 			(xy 69.85 134.62) (xy 69.85 132.08)
 		)
 		(stroke
@@ -7310,23 +7331,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 46.99) (xy 138.43 76.2)
+			(xy 133.35 100.33) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511dc582-46aa-442b-99ab-ba036d58ea27")
+	)
+	(wire
+		(pts
+			(xy 138.43 50.8) (xy 138.43 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5269ab0b-1815-41e5-b34e-c82e44fba823")
-	)
-	(wire
-		(pts
-			(xy 118.11 130.81) (xy 115.57 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52b4411b-2079-4c0d-a789-cb47509cb8f4")
 	)
 	(wire
 		(pts
@@ -7420,17 +7441,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 43.18) (xy 118.11 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a9d3716-5496-4bca-b339-df0f83c63fe9")
-	)
-	(wire
-		(pts
-			(xy 125.73 55.88) (xy 125.73 60.96)
+			(xy 125.73 58.42) (xy 125.73 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7510,7 +7521,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 118.11) (xy 171.45 118.11)
+			(xy 173.99 123.19) (xy 177.8 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7587,6 +7598,16 @@
 			(type solid)
 		)
 		(uuid "68c75ba6-c731-42ef-8d53-9a56e3d17fcd")
+	)
+	(wire
+		(pts
+			(xy 143.51 93.98) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f31945-51ac-47a6-aa93-108eb42a4b11")
 	)
 	(wire
 		(pts
@@ -7670,6 +7691,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 50.8) (xy 138.43 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9d7d6d-1bb8-4908-a4c0-65be931fc21d")
+	)
+	(wire
+		(pts
 			(xy 195.58 21.59) (xy 195.58 20.32)
 		)
 		(stroke
@@ -7750,13 +7781,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 46.99) (xy 138.43 46.99)
+			(xy 137.16 93.98) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "751834a4-932c-4a56-9a54-9a0e8776a3f8")
+		(uuid "76ce4cd4-80e0-42d2-aaa6-1e6b0076a562")
 	)
 	(wire
 		(pts
@@ -7767,16 +7798,6 @@
 			(type solid)
 		)
 		(uuid "7742aa00-7146-480b-bb36-37618a0b1ad2")
-	)
-	(wire
-		(pts
-			(xy 118.11 46.99) (xy 120.65 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78630e58-9985-4792-8bea-9f6dcb124454")
 	)
 	(wire
 		(pts
@@ -7810,7 +7831,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 46.99) (xy 111.76 73.66)
+			(xy 111.76 50.8) (xy 111.76 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7860,7 +7881,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 139.7) (xy 203.2 149.86)
+			(xy 207.01 139.7) (xy 207.01 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7920,6 +7941,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 100.33) (xy 135.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854dd1d0-1d56-4b87-a5e3-809574af3cf9")
+	)
+	(wire
+		(pts
 			(xy 77.47 116.84) (xy 74.93 116.84)
 		)
 		(stroke
@@ -7967,6 +7998,16 @@
 			(type default)
 		)
 		(uuid "899d704d-d466-4ddb-894c-372ccdf623d1")
+	)
+	(wire
+		(pts
+			(xy 143.51 100.33) (xy 143.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b84119-941e-40bd-b3cc-5c74531e168b")
 	)
 	(wire
 		(pts
@@ -8050,6 +8091,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 130.81) (xy 121.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb892d8-c21b-4be4-9f19-02d0c9eade08")
+	)
+	(wire
+		(pts
 			(xy 146.05 167.64) (xy 152.4 167.64)
 		)
 		(stroke
@@ -8060,7 +8111,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 149.86) (xy 193.04 147.32)
+			(xy 196.85 149.86) (xy 196.85 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8130,6 +8181,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 124.46) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98bfa072-be99-4541-b2f0-7f68fac7c5cf")
+	)
+	(wire
+		(pts
 			(xy 68.58 73.66) (xy 73.66 73.66)
 		)
 		(stroke
@@ -8190,16 +8251,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 214.63) (xy 104.14 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f3bb134-faa9-4d0c-9b9d-6d47a2cdf581")
-	)
-	(wire
-		(pts
 			(xy 97.79 181.61) (xy 99.06 181.61)
 		)
 		(stroke
@@ -8210,13 +8261,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 210.82) (xy 101.6 210.82)
+			(xy 154.94 124.46) (xy 154.94 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1b3b6e8-f2d9-44f2-a812-68d0da469b78")
+		(uuid "a22381df-99ef-42de-82a3-a7692e104927")
 	)
 	(wire
 		(pts
@@ -8267,6 +8318,16 @@
 			(type default)
 		)
 		(uuid "a50fbe17-e24b-46b7-89d4-fe47be43c179")
+	)
+	(wire
+		(pts
+			(xy 139.7 96.52) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a55015-c6a6-44ab-9136-9424c97449e6")
 	)
 	(wire
 		(pts
@@ -8350,16 +8411,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 217.17) (xy 104.14 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adc0d0d4-65a5-41c6-8153-688d61360196")
-	)
-	(wire
-		(pts
 			(xy 224.79 132.08) (xy 224.79 142.24)
 		)
 		(stroke
@@ -8400,16 +8451,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 130.81) (xy 120.65 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b58e47f2-04b3-421c-9ca0-a8463a2d44e5")
-	)
-	(wire
-		(pts
 			(xy 67.31 57.15) (xy 102.87 57.15)
 		)
 		(stroke
@@ -8430,7 +8471,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 149.86) (xy 193.04 149.86)
+			(xy 207.01 149.86) (xy 196.85 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8460,7 +8501,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 152.4) (xy 193.04 149.86)
+			(xy 196.85 152.4) (xy 196.85 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8570,6 +8611,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 130.81) (xy 124.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c683a29c-db4d-44a0-848a-c73518206345")
+	)
+	(wire
+		(pts
 			(xy 67.31 27.94) (xy 93.98 27.94)
 		)
 		(stroke
@@ -8590,16 +8641,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 127) (xy 118.11 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c79affe9-5c69-41cb-8ec2-8644ffbb147f")
-	)
-	(wire
-		(pts
 			(xy 97.79 171.45) (xy 99.06 171.45)
 		)
 		(stroke
@@ -8610,7 +8651,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 158.75) (xy 193.04 157.48)
+			(xy 196.85 158.75) (xy 196.85 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8647,6 +8688,16 @@
 			(type default)
 		)
 		(uuid "ccc76961-6cee-48e6-be1a-5ec8a21cdd8b")
+	)
+	(wire
+		(pts
+			(xy 148.59 118.11) (xy 144.78 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce986ed-6b56-47dc-9459-681a34485e0f")
 	)
 	(wire
 		(pts
@@ -8800,23 +8851,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 152.4) (xy 203.2 149.86)
+			(xy 207.01 152.4) (xy 207.01 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df80cbf7-56ca-4087-b490-5ab9efd1e7a4")
-	)
-	(wire
-		(pts
-			(xy 104.14 220.98) (xy 104.14 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df8bbddb-eaf1-4a2f-8798-9bc8cf962abe")
 	)
 	(wire
 		(pts
@@ -8860,7 +8901,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 132.08) (xy 171.45 132.08)
+			(xy 173.99 137.16) (xy 177.8 137.16)
 		)
 		(stroke
 			(width 0)
@@ -9050,7 +9091,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 120.65) (xy 171.45 120.65)
+			(xy 173.99 125.73) (xy 177.8 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9107,16 +9148,6 @@
 			(type solid)
 		)
 		(uuid "f9315c78-c56d-49ea-b391-57a0fd98d09c")
-	)
-	(wire
-		(pts
-			(xy 101.6 210.82) (xy 97.79 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9b47295-9893-4f2f-be6f-7985a420c118")
 	)
 	(wire
 		(pts
@@ -9187,6 +9218,16 @@
 			(type solid)
 		)
 		(uuid "fe837306-92d0-4847-ad21-76c47ae932d1")
+	)
+	(wire
+		(pts
+			(xy 111.76 50.8) (xy 121.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffdb9933-ddd3-4d1e-8b31-02d6dbcefdaf")
 	)
 	(label "A10"
 		(at 214.63 90.17 0)
@@ -10052,7 +10093,7 @@
 	)
 	(global_label "OUTPUT-1"
 		(shape input)
-		(at 167.64 118.11 180)
+		(at 173.99 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10061,7 +10102,7 @@
 		)
 		(uuid "0667bd50-951d-46b6-8ee2-e48abd2dd36e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 118.11 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +10895,7 @@
 	)
 	(global_label "OUTPUT-1"
 		(shape input)
-		(at 167.64 132.08 180)
+		(at 173.99 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10863,7 +10904,7 @@
 		)
 		(uuid "79364939-7abb-4b99-92f4-0faef7eb9d22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 132.08 0)
+			(at 173.99 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13574,7 +13615,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 193.04 144.78 0)
+		(at 196.85 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13582,7 +13623,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006254d215")
 		(property "Reference" "R15"
-			(at 194.7672 143.6116 0)
+			(at 198.5772 143.6116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13591,7 +13632,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 194.7672 145.923 0)
+			(at 198.5772 145.923 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13600,7 +13641,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 193.04 144.78 0)
+			(at 196.85 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13609,7 +13650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 144.78 0)
+			(at 196.85 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13618,7 +13659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 144.78 0)
+			(at 196.85 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13642,7 +13683,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 193.04 154.94 0)
+		(at 196.85 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13650,7 +13691,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006255a110")
 		(property "Reference" "R16"
-			(at 194.7672 153.7716 0)
+			(at 198.5772 153.7716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13659,7 +13700,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 194.7672 156.083 0)
+			(at 198.5772 156.083 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13668,7 +13709,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 193.04 154.94 0)
+			(at 196.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13677,7 +13718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 154.94 0)
+			(at 196.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13686,7 +13727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 154.94 0)
+			(at 196.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13769,77 +13810,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_POT_US")
-		(at 97.79 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e4da48b-f1ca-4126-9238-34bbedec18fd")
-		(property "Reference" "VOLUME3"
-			(at 95.504 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k-A"
-			(at 95.504 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "clholm-kicad-lib:16MM_T.MOUNT"
-			(at 97.79 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bfbf6eea-0913-4810-b179-4b86cdfc097a")
-		)
-		(pin "3"
-			(uuid "b2848c36-6313-40e6-b5b9-f39dc2472072")
-		)
-		(pin "2"
-			(uuid "12ea4077-d397-4242-8fe4-36978d53a088")
-		)
-		(instances
-			(project "bitseithr-complete"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "VOLUME3")
 					(unit 1)
 				)
 			)
@@ -14886,7 +14856,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 203.2 139.7 0)
+		(at 207.01 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14894,7 +14864,7 @@
 		(dnp no)
 		(uuid "2ffb45b2-f256-4967-b7cd-59b9959dbf70")
 		(property "Reference" "#PWR042"
-			(at 203.2 143.51 0)
+			(at 207.01 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14903,7 +14873,7 @@
 			)
 		)
 		(property "Value" "+2.5V"
-			(at 199.898 135.382 0)
+			(at 203.708 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14912,7 +14882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 139.7 0)
+			(at 207.01 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14920,7 +14890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 139.7 0)
+			(at 207.01 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14928,7 +14898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 139.7 0)
+			(at 207.01 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14950,7 +14920,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA_Lib:HC-XA-2AW")
-		(at 176.53 119.38 0)
+		(at 182.88 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14958,7 +14928,7 @@
 		(dnp no)
 		(uuid "331d3141-6424-4196-938c-718b2628d43d")
 		(property "Reference" "CN3"
-			(at 180.34 118.1099 0)
+			(at 186.69 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14967,7 +14937,7 @@
 			)
 		)
 		(property "Value" "SHIELD CONN 3"
-			(at 169.672 113.792 0)
+			(at 176.022 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14976,7 +14946,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:CONN-TH_2P-P2.50_HCTL_HC-XA-2AW"
-			(at 176.53 119.38 0)
+			(at 182.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14985,7 +14955,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/HC-XA-2AW/3039488.html"
-			(at 176.53 119.38 0)
+			(at 182.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14994,7 +14964,7 @@
 			)
 		)
 		(property "Description" "Pins Structure:1x2P Pitch:2.5mm Mounting Type:Right Angle Reference Series:XA Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating"
-			(at 176.53 119.38 0)
+			(at 182.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15003,7 +14973,7 @@
 			)
 		)
 		(property "Manufacturer Part" "HC-XA-2AW"
-			(at 176.53 119.38 0)
+			(at 182.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15012,7 +14982,7 @@
 			)
 		)
 		(property "Manufacturer" "HCTL(华灿天禄)"
-			(at 176.53 119.38 0)
+			(at 182.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15021,7 +14991,7 @@
 			)
 		)
 		(property "Supplier Part" "C2845807"
-			(at 176.53 119.38 0)
+			(at 182.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15030,7 +15000,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 176.53 119.38 0)
+			(at 182.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15039,7 +15009,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x2P 间距:2.5mm 弯插 系列:XA"
-			(at 176.53 119.38 0)
+			(at 182.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15374,7 +15344,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 120.65 0)
+		(at 173.99 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15382,7 +15352,7 @@
 		(dnp no)
 		(uuid "3b2a4c0a-d5d3-4f29-bf1c-65cfe34190ff")
 		(property "Reference" "#PWR056"
-			(at 167.64 127 0)
+			(at 173.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15391,7 +15361,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 124.46 0)
+			(at 173.99 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15399,7 +15369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 120.65 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15407,7 +15377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 120.65 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15415,7 +15385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 120.65 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15776,7 +15746,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 125.73 55.88 0)
+		(at 125.73 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15784,7 +15754,7 @@
 		(dnp no)
 		(uuid "4790b196-fab4-470e-a3ba-03440dc42d5f")
 		(property "Reference" "#PWR044"
-			(at 125.73 59.69 0)
+			(at 125.73 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15793,7 +15763,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 122.682 52.07 0)
+			(at 122.682 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +15772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 55.88 0)
+			(at 125.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15810,7 +15780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 55.88 0)
+			(at 125.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15818,7 +15788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 125.73 55.88 0)
+			(at 125.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15833,6 +15803,123 @@
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:HC-XA-3AW")
+		(at 151.13 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4edcd0d3-a8f7-4652-a9ff-987971d910ee")
+		(property "Reference" "CN16"
+			(at 162.56 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PIGTAIL 5"
+			(at 166.37 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:CONN-TH_3P-P2.50_HCTL_HC-XA-3AW"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/HC-XA-3AW/3039489.html"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pins Structure:1x3P Pitch:2.5mm Mounting Type:Right Angle Reference Series:XA Number of Pins:3P Number of Rows:1 Number of PINs Per Row:3 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "HC-XA-3AW"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL(华灿天禄)"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2845808"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1x3P 间距:2.5mm 弯插 系列:XA"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43886ee7-14de-4f75-89b1-265c6b6c6821")
+		)
+		(pin "3"
+			(uuid "3ce01ba8-e91d-440c-ad4d-bd54aeae7b93")
+		)
+		(pin "1"
+			(uuid "bfbb8aa9-389f-48e2-a977-05fc401b9ba1")
+		)
+		(instances
+			(project "bitseithr-complete"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "CN16")
 					(unit 1)
 				)
 			)
@@ -15966,6 +16053,123 @@
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:HC-XA-3AW")
+		(at 139.7 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51fc3ace-2937-464c-a5ec-6052db609bff")
+		(property "Reference" "CN14"
+			(at 151.13 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PIGTAIL 4"
+			(at 154.94 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:CONN-TH_3P-P2.50_HCTL_HC-XA-3AW"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/HC-XA-3AW/3039489.html"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pins Structure:1x3P Pitch:2.5mm Mounting Type:Right Angle Reference Series:XA Number of Pins:3P Number of Rows:1 Number of PINs Per Row:3 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "HC-XA-3AW"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL(华灿天禄)"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2845808"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1x3P 间距:2.5mm 弯插 系列:XA"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17d2cfc9-7647-4fa6-b589-71269501ea86")
+		)
+		(pin "3"
+			(uuid "7abdf28b-8b4a-4f2b-b66b-d657d5c00aab")
+		)
+		(pin "1"
+			(uuid "2470b143-69a7-4e22-ba59-7d93d79b68e7")
+		)
+		(instances
+			(project "bitseithr-complete"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "CN14")
 					(unit 1)
 				)
 			)
@@ -16544,7 +16748,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 134.62 0)
+		(at 173.99 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16552,7 +16756,7 @@
 		(dnp no)
 		(uuid "623a5986-13c5-4574-913a-624e4eb864ac")
 		(property "Reference" "#PWR057"
-			(at 167.64 140.97 0)
+			(at 173.99 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16561,7 +16765,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 138.43 0)
+			(at 173.99 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16569,7 +16773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 134.62 0)
+			(at 173.99 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16577,7 +16781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 134.62 0)
+			(at 173.99 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16585,7 +16789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 134.62 0)
+			(at 173.99 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16607,7 +16811,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 158.75 0)
+		(at 196.85 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16615,7 +16819,7 @@
 		(dnp no)
 		(uuid "66e1a3da-6bc1-420c-a5d9-c5df10e62e57")
 		(property "Reference" "#PWR040"
-			(at 193.04 165.1 0)
+			(at 196.85 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16624,7 +16828,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 162.56 0)
+			(at 196.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16632,7 +16836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 158.75 0)
+			(at 196.85 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16640,7 +16844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 158.75 0)
+			(at 196.85 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16648,7 +16852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 158.75 0)
+			(at 196.85 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17010,7 +17214,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA_Lib:HC-XA-2AW")
-		(at 176.53 133.35 0)
+		(at 182.88 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17018,7 +17222,7 @@
 		(dnp no)
 		(uuid "826aca52-93e7-47db-b851-8ceca2947ef2")
 		(property "Reference" "CN4"
-			(at 180.34 132.0799 0)
+			(at 186.69 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17027,7 +17231,7 @@
 			)
 		)
 		(property "Value" "SHIELD CONN 4"
-			(at 169.672 127.762 0)
+			(at 176.022 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17036,7 +17240,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:CONN-TH_2P-P2.50_HCTL_HC-XA-2AW"
-			(at 176.53 133.35 0)
+			(at 182.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17045,7 +17249,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/HC-XA-2AW/3039488.html"
-			(at 176.53 133.35 0)
+			(at 182.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17054,7 +17258,7 @@
 			)
 		)
 		(property "Description" "Pins Structure:1x2P Pitch:2.5mm Mounting Type:Right Angle Reference Series:XA Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating"
-			(at 176.53 133.35 0)
+			(at 182.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17063,7 +17267,7 @@
 			)
 		)
 		(property "Manufacturer Part" "HC-XA-2AW"
-			(at 176.53 133.35 0)
+			(at 182.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17072,7 +17276,7 @@
 			)
 		)
 		(property "Manufacturer" "HCTL(华灿天禄)"
-			(at 176.53 133.35 0)
+			(at 182.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17081,7 +17285,7 @@
 			)
 		)
 		(property "Supplier Part" "C2845807"
-			(at 176.53 133.35 0)
+			(at 182.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17090,7 +17294,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 176.53 133.35 0)
+			(at 182.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17099,7 +17303,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x2P 间距:2.5mm 弯插 系列:XA"
-			(at 176.53 133.35 0)
+			(at 182.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17544,77 +17748,6 @@
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_POT_US")
-		(at 124.46 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e883c9c-32b2-4b28-bea6-8a8a65f34a1b")
-		(property "Reference" "VOLUME1"
-			(at 120.65 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k-A"
-			(at 120.65 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "clholm-kicad-lib:16MM_T.MOUNT"
-			(at 124.46 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfafbf2a-b961-46c9-b88d-2e97b6c4afb2")
-		)
-		(pin "3"
-			(uuid "c4a7a692-a15d-4447-af7d-9b5131e6cacf")
-		)
-		(pin "2"
-			(uuid "f2bfeed2-d43b-4893-b170-bfb3d7f229b2")
-		)
-		(instances
-			(project "bitseithr-complete"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "VOLUME1")
 					(unit 1)
 				)
 			)
@@ -18392,6 +18525,123 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA_Lib:HC-XA-3AW")
+		(at 124.46 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af21e003-bc5d-442a-afa8-b43a18ce5bae")
+		(property "Reference" "CN12"
+			(at 135.636 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SHIELD CONN 7"
+			(at 135.636 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:CONN-TH_3P-P2.50_HCTL_HC-XA-3AW"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/HC-XA-3AW/3039489.html"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pins Structure:1x3P Pitch:2.5mm Mounting Type:Right Angle Reference Series:XA Number of Pins:3P Number of Rows:1 Number of PINs Per Row:3 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "HC-XA-3AW"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL(华灿天禄)"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2845808"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1x3P 间距:2.5mm 弯插 系列:XA"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95e02cd5-4046-4854-830c-026dbccef5b1")
+		)
+		(pin "3"
+			(uuid "eebc15d5-87ed-4207-8fa7-a45c8ea561be")
+		)
+		(pin "1"
+			(uuid "a303524e-1977-4476-9181-283efe0836b8")
+		)
+		(instances
+			(project "bitseithr-complete"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "CN12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 82.55 0)
 		(unit 1)
@@ -18449,6 +18699,77 @@
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_POT_US")
+		(at 151.13 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc1df850-4208-4257-b137-d2af628d7f13")
+		(property "Reference" "VOLUME2"
+			(at 147.066 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k-A"
+			(at 147.066 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "clholm-kicad-lib:16MM_T.MOUNT"
+			(at 151.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42ebaf6d-31c1-4496-b78d-9a9c3c56cf6e")
+		)
+		(pin "3"
+			(uuid "af8a1a29-539a-4b81-8bbe-1200b97784b0")
+		)
+		(pin "2"
+			(uuid "403c8ebe-8e95-4a79-aabe-cef2e0d61920")
+		)
+		(instances
+			(project "bitseithr-complete"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "VOLUME2")
 					(unit 1)
 				)
 			)
@@ -18652,7 +18973,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 193.04 139.7 0)
+		(at 196.85 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18660,7 +18981,7 @@
 		(dnp no)
 		(uuid "bdcba1de-2d60-42e8-b16e-5b94d72aa559")
 		(property "Reference" "#PWR043"
-			(at 193.04 143.51 0)
+			(at 196.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18669,7 +18990,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 191.008 135.382 0)
+			(at 194.818 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18678,7 +18999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 139.7 0)
+			(at 196.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18686,7 +19007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 139.7 0)
+			(at 196.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18694,7 +19015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 193.04 139.7 0)
+			(at 196.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18716,7 +19037,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 158.75 0)
+		(at 207.01 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18724,7 +19045,7 @@
 		(dnp no)
 		(uuid "be3f2b1e-bd35-4812-8a65-cd839bf6aba3")
 		(property "Reference" "#PWR041"
-			(at 203.2 165.1 0)
+			(at 207.01 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18733,7 +19054,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 162.56 0)
+			(at 207.01 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18741,7 +19062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 158.75 0)
+			(at 207.01 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18749,7 +19070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 158.75 0)
+			(at 207.01 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18757,7 +19078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 158.75 0)
+			(at 207.01 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18772,124 +19093,6 @@
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA_Lib:HC-XA-3AW")
-		(at 109.22 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bec1016b-4248-40fc-a1b4-658da471b2f3")
-		(property "Reference" "CN10"
-			(at 113.03 215.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 113.03 218.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA_Lib:CONN-TH_3P-P2.50_HCTL_HC-XA-3AW"
-			(at 109.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/HC-XA-3AW/3039489.html"
-			(at 109.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pins Structure:1x3P Pitch:2.5mm Mounting Type:Right Angle Reference Series:XA Number of Pins:3P Number of Rows:1 Number of PINs Per Row:3 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating"
-			(at 109.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "HC-XA-3AW"
-			(at 109.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "HCTL(华灿天禄)"
-			(at 109.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2845808"
-			(at 109.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 109.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1x3P 间距:2.5mm 弯插 系列:XA"
-			(at 109.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "104c1299-87f5-4f7c-abf2-cab30c37d055")
-		)
-		(pin "3"
-			(uuid "bae7a305-eabc-495a-a377-0dc37b9097a0")
-		)
-		(pin "1"
-			(uuid "a71e2ae1-15a9-42ae-97eb-03f6d2693fb4")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "CN10")
 					(unit 1)
 				)
 			)
@@ -19269,7 +19472,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 203.2 154.94 0)
+		(at 207.01 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19278,7 +19481,7 @@
 		(fields_autoplaced yes)
 		(uuid "cebc0529-e821-4c7e-bc93-f2faca2cf1ab")
 		(property "Reference" "C1"
-			(at 205.74 153.6762 0)
+			(at 209.55 153.6762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19287,7 +19490,7 @@
 			)
 		)
 		(property "Value" ".1uF"
-			(at 205.74 156.2162 0)
+			(at 209.55 156.2162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19296,7 +19499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 154.94 0)
+			(at 207.01 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19305,7 +19508,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 154.94 0)
+			(at 207.01 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19314,7 +19517,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 203.2 154.94 0)
+			(at 207.01 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19332,6 +19535,123 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:HC-XA-3AW")
+		(at 124.46 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d008075c-eb2f-4d3d-a670-25ef01bd3f40")
+		(property "Reference" "CN15"
+			(at 135.89 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SHIELD CONN 8"
+			(at 134.112 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:CONN-TH_3P-P2.50_HCTL_HC-XA-3AW"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/HC-XA-3AW/3039489.html"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pins Structure:1x3P Pitch:2.5mm Mounting Type:Right Angle Reference Series:XA Number of Pins:3P Number of Rows:1 Number of PINs Per Row:3 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "HC-XA-3AW"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL(华灿天禄)"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2845808"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1x3P 间距:2.5mm 弯插 系列:XA"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b96881d-b889-4e8d-8f54-a100dca9888b")
+		)
+		(pin "3"
+			(uuid "651a1ecf-6662-49ff-8cf0-51644c9e7cb9")
+		)
+		(pin "1"
+			(uuid "435e5c9c-13f5-4312-9e16-2af258059e60")
+		)
+		(instances
+			(project "bitseithr-complete"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "CN15")
 					(unit 1)
 				)
 			)
@@ -19977,15 +20297,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_POT_US")
-		(at 124.46 130.81 90)
+		(at 139.7 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e9656930-896b-4e69-9e2b-3d4a0823dcbe")
-		(property "Reference" "VOLUME2"
-			(at 120.65 121.92 90)
+		(uuid "ed0a84ec-d33b-4966-b44d-01e06a670858")
+		(property "Reference" "VOLUME1"
+			(at 135.636 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19994,7 +20314,7 @@
 			)
 		)
 		(property "Value" "100k-A"
-			(at 120.65 124.46 90)
+			(at 135.636 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20003,7 +20323,7 @@
 			)
 		)
 		(property "Footprint" "clholm-kicad-lib:16MM_T.MOUNT"
-			(at 124.46 130.81 0)
+			(at 139.7 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20012,7 +20332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 130.81 0)
+			(at 139.7 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20021,7 +20341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 130.81 0)
+			(at 139.7 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20029,18 +20349,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c8af5ce-e187-4f5a-98d3-a6853d931831")
+			(uuid "9ed8b5c1-274f-4e78-a5b2-3070f0716568")
 		)
 		(pin "3"
-			(uuid "cdbdadf2-30c7-4d44-9aaf-6dca6ffc3740")
+			(uuid "15061609-d7e4-4bcf-8472-dc94acf5cdb7")
 		)
 		(pin "2"
-			(uuid "8533c57c-7bcd-48f9-a6d2-adb291891574")
+			(uuid "63d77b4d-f503-4b07-8d74-411eb729e0a7")
 		)
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "VOLUME2")
+					(reference "VOLUME1")
 					(unit 1)
 				)
 			)
