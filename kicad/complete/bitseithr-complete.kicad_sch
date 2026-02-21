@@ -2328,6 +2328,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_POT_US"
 			(pin_names
 				(offset 1.016)
@@ -5182,6 +5322,12 @@
 		(uuid "1feb8ee4-db93-4591-9a54-50be00d724e4")
 	)
 	(junction
+		(at 83.82 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2051c028-c046-4006-a26d-e2ab21bd4c6c")
+	)
+	(junction
 		(at 201.93 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5212,16 +5358,16 @@
 		(uuid "5b690f1d-7292-41d0-8163-a44cf47b8833")
 	)
 	(junction
-		(at 83.82 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60378654-b81c-48d5-91d3-e595a9159201")
-	)
-	(junction
 		(at 93.98 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bc5bd6a-4084-47ec-83c5-67928e59c326")
+	)
+	(junction
+		(at 83.82 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "837f886a-b11a-4b1e-b84c-ac88b639de6d")
 	)
 	(junction
 		(at 93.98 27.94)
@@ -5246,12 +5392,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a94dba57-deba-48e0-82a0-063f5ddc2fd6")
-	)
-	(junction
-		(at 83.82 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbacf3b5-cf3f-470c-9b21-4ac6a17f531a")
 	)
 	(junction
 		(at 74.93 116.84)
@@ -6317,7 +6457,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 154.94) (xy 83.82 156.21)
+			(xy 83.82 149.86) (xy 83.82 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6674,16 +6814,6 @@
 			(type solid)
 		)
 		(uuid "8e574a0b-8d50-4c38-8228-5ef9b6a4997b")
-	)
-	(wire
-		(pts
-			(xy 83.82 86.36) (xy 83.82 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90cf7e4c-60c2-47e9-86a2-2611ad16fe45")
 	)
 	(wire
 		(pts
@@ -7094,6 +7224,16 @@
 			(type default)
 		)
 		(uuid "bebf0e35-06fd-4958-a301-6d34452efc77")
+	)
+	(wire
+		(pts
+			(xy 83.82 82.55) (xy 83.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10fc01d-c080-4c91-a912-782ed680f2f9")
 	)
 	(wire
 		(pts
@@ -11640,74 +11780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 83.82 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060f1839c")
-		(property "Reference" "R4"
-			(at 85.5472 82.6516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150R"
-			(at 85.5472 84.963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f3e2398-706d-42aa-aa75-5b915bb2438e")
-		)
-		(pin "2"
-			(uuid "5b3fbab1-bb8f-4032-9d54-5da7ccc20732")
-		)
-		(instances
-			(project "bitseithr-complete"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:CP1_Small")
 		(at 190.5 29.21 0)
 		(unit 1)
@@ -11770,74 +11842,6 @@
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:CP1_Small")
-		(at 201.93 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000615553dd")
-		(property "Reference" "C7"
-			(at 204.2414 28.0416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 204.2414 30.353 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "caps-film:0.2_.MED"
-			(at 201.93 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5ced4c9-d050-481a-a602-f71e5cbb93fc")
-		)
-		(pin "2"
-			(uuid "d895df2f-fd7e-4ae8-8b1f-34f7c682c61a")
-		)
-		(instances
-			(project "bitseithr-complete"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12040,74 +12044,6 @@
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:CP1_Small")
-		(at 196.85 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006256ef90")
-		(property "Reference" "C21"
-			(at 199.1614 149.9616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 199.1614 152.273 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 196.85 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f69d23a-0374-43f2-91b5-b8309d965bb1")
-		)
-		(pin "2"
-			(uuid "1d29816b-91e0-4886-b75e-c36bbe739bc3")
-		)
-		(instances
-			(project "bitseithr-complete"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -12372,7 +12308,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 156.21 0)
+		(at 83.82 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12380,7 +12316,7 @@
 		(dnp no)
 		(uuid "13d6bcbc-8bc0-466f-a3e2-541d13797c25")
 		(property "Reference" "#PWR08"
-			(at 83.82 162.56 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12389,7 +12325,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.9343 160.5344 0)
+			(at 83.9343 155.4544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12397,7 +12333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 156.21 0)
+			(at 83.82 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12405,7 +12341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 156.21 0)
+			(at 83.82 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,7 +12349,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 156.21 0)
+			(at 83.82 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,28 +13181,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "362e3372-3b15-4924-9f63-078e9e2dc8c3")
+			(uuid "362e3372-3b15-4924-9f63-078e9e2dc8c4")
 		)
 		(pin "8"
-			(uuid "173e74d5-55e6-4879-9ea9-82c95ea14321")
+			(uuid "173e74d5-55e6-4879-9ea9-82c95ea14322")
 		)
 		(pin "4"
-			(uuid "bc4a635f-dee4-4c93-b91c-c6526dfb20e0")
+			(uuid "bc4a635f-dee4-4c93-b91c-c6526dfb20e1")
 		)
 		(pin "1"
-			(uuid "0e95efd8-cb3b-4d4b-9ecf-d65641f71f58")
+			(uuid "0e95efd8-cb3b-4d4b-9ecf-d65641f71f59")
 		)
 		(pin "6"
-			(uuid "8126a839-2a92-45d0-811a-872cab704a6d")
+			(uuid "8126a839-2a92-45d0-811a-872cab704a6e")
 		)
 		(pin "5"
-			(uuid "e2e72926-41a8-41e3-b81b-53771f8e4c41")
+			(uuid "e2e72926-41a8-41e3-b81b-53771f8e4c42")
 		)
 		(pin "7"
-			(uuid "f108c314-0b5b-432f-97e1-e89eb399dc73")
+			(uuid "f108c314-0b5b-432f-97e1-e89eb399dc74")
 		)
 		(pin "3"
-			(uuid "3a3f11b7-3b0a-4a75-bb1f-bb6f329c928d")
+			(uuid "3a3f11b7-3b0a-4a75-bb1f-bb6f329c928e")
 		)
 		(instances
 			(project ""
@@ -13294,7 +13230,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 106.68 70.7644 90)
 			(effects
 				(font
@@ -14210,6 +14146,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 93.98 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e07ace4-6683-4d1d-b23b-2feb1b9a652f")
+		(property "Reference" "C4"
+			(at 96.52 30.4862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 96.52 33.0262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c69eb97f-d4ac-4c5d-8645-ae78a485df34")
+		)
+		(pin "1"
+			(uuid "af362a89-3622-42a4-84d7-1886d7549875")
+		)
+		(instances
+			(project "bitseithr-complete"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:CP1_Small")
 		(at 104.14 31.75 0)
 		(unit 1)
@@ -14642,16 +14648,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:CP1_Small")
-		(at 93.98 31.75 0)
+		(lib_id "Device:C_Small")
+		(at 201.93 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "943e659f-c074-4737-8f55-be91545f4351")
-		(property "Reference" "C4"
-			(at 96.2914 30.5816 0)
+		(fields_autoplaced yes)
+		(uuid "90d16b60-0b84-46a0-84c4-39c386588436")
+		(property "Reference" "C2"
+			(at 204.47 27.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14660,7 +14667,7 @@
 			)
 		)
 		(property "Value" ".1uF"
-			(at 96.2914 32.893 0)
+			(at 204.47 30.4862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14668,8 +14675,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "caps-film:0.2_.MED"
-			(at 93.98 31.75 0)
+		(property "Footprint" ""
+			(at 201.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14678,7 +14685,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 31.75 0)
+			(at 201.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14686,24 +14693,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 31.75 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "545d70f7-a730-4b73-93b6-c68808f11e00")
-		)
 		(pin "2"
-			(uuid "2cc66e1e-5685-4a24-98d8-0fd0c2eb591d")
+			(uuid "79766f5e-873c-4a46-b85c-665ddbff3cb2")
+		)
+		(pin "1"
+			(uuid "e2be3b01-f634-410e-bfd8-13489371d7f7")
 		)
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -15171,7 +15179,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 87.63 0)
+		(at 83.82 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15179,7 +15187,7 @@
 		(dnp no)
 		(uuid "b1bc4086-2f5b-4eb6-9ca7-de5c5233b4d0")
 		(property "Reference" "#PWR010"
-			(at 83.82 93.98 0)
+			(at 83.82 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15188,7 +15196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.9343 91.9544 0)
+			(at 83.9343 86.8744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15196,7 +15204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 87.63 0)
+			(at 83.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15204,7 +15212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 87.63 0)
+			(at 83.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15212,7 +15220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 87.63 0)
+			(at 83.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15353,6 +15361,76 @@
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 101.6 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc85aec5-aec2-4a3d-90b2-0445cc6e73ac")
+		(property "Reference" "C6"
+			(at 104.14 102.8762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 104.14 105.4162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db8d89b0-a5ab-4389-b61e-b4a5ba8c7eb7")
+		)
+		(pin "1"
+			(uuid "a716ac79-df9c-4450-8e9b-419736af0adf")
+		)
+		(instances
+			(project "bitseithr-complete"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -15681,74 +15759,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 83.82 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc468219-1e9d-464c-987e-a32c980f919a")
-		(property "Reference" "R8"
-			(at 85.5472 151.2316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150R"
-			(at 85.5472 153.543 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f3e2398-706d-42aa-aa75-5b915bb2438f")
-		)
-		(pin "2"
-			(uuid "5b3fbab1-bb8f-4032-9d54-5da7ccc20733")
-		)
-		(instances
-			(project "bitseithr-complete"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 115.57 189.23 0)
 		(unit 1)
@@ -15806,6 +15816,76 @@
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 196.85 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cebc0529-e821-4c7e-bc93-f2faca2cf1ab")
+		(property "Reference" "C1"
+			(at 199.39 149.8662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 199.39 152.4062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0ff4a37-e825-4ff4-b59a-eb17dbfbb88a")
+		)
+		(pin "1"
+			(uuid "eea9c77b-7682-4abe-801c-fa11704107e8")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -16286,7 +16366,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 107.95 139.3444 90)
 			(effects
 				(font
@@ -16465,74 +16545,6 @@
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:CP1_Small")
-		(at 101.6 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7dfc45b-3e3e-4955-b7ff-8d6e6980fbb2")
-		(property "Reference" "C6"
-			(at 103.9114 102.9716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 103.9114 105.283 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "caps-film:0.2_.MED"
-			(at 101.6 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fa73e83-ca96-45f4-95e2-8707ff6824f9")
-		)
-		(pin "2"
-			(uuid "944da646-7a57-424f-94eb-cd385168d3ef")
-		)
-		(instances
-			(project "bitseithr-complete"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C6")
 					(unit 1)
 				)
 			)
