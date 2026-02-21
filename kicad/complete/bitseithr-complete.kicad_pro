@@ -650,6 +650,10 @@
     [
       "5ddaed93-2526-4b22-bcc4-1eef73fe4352",
       "keyboard"
+    ],
+    [
+      "76dd9f28-7dda-49af-8673-8e1a5d555654",
+      "encoders"
     ]
   ],
   "text_variables": {}

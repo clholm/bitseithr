@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5ef97ab2-325f-40f9-bebd-e59d199c31cc")
+	(paper "A4")
+	(title_block
+		(rev "v1")
+		(company "Offworld Serpent Devices")
+	)
+	(lib_symbols)
+)
