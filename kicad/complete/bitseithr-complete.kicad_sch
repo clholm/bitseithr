@@ -12205,7 +12205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d71aa9")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 224.79 30.48 0)
 			(effects
 				(font
@@ -12254,7 +12254,7 @@
 		(instances
 			(project "Arduino_Mega"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -12269,7 +12269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d71d10")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 222.25 30.48 0)
 			(effects
 				(font
@@ -12318,7 +12318,7 @@
 		(instances
 			(project "Arduino_Mega"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -12333,7 +12333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d721e6")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 224.79 58.42 0)
 			(effects
 				(font
@@ -12381,7 +12381,7 @@
 		(instances
 			(project "Arduino_Mega"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12487,7 +12487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d72a3d")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 257.81 58.42 0)
 			(effects
 				(font
@@ -12535,7 +12535,7 @@
 		(instances
 			(project "Arduino_Mega"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -13059,7 +13059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d758f6")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 214.63 146.05 0)
 			(effects
 				(font
@@ -13107,7 +13107,7 @@
 		(instances
 			(project "Arduino_Mega"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13122,7 +13122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d75ab8")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 267.97 115.57 0)
 			(effects
 				(font
@@ -13170,7 +13170,7 @@
 		(instances
 			(project "Arduino_Mega"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -13397,7 +13397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060cdbd47")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 113.03 25.4 0)
 			(effects
 				(font
@@ -13446,7 +13446,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13659,7 +13659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000615541a7")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 197.8914 22.9616 0)
 			(effects
 				(font
@@ -13713,7 +13713,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -13949,7 +13949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0306c973-c416-4fd8-ad95-df33be7254b5")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 171.45 40.64 0)
 			(effects
 				(font
@@ -14000,7 +14000,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14016,7 +14016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0be04480-c94c-4b15-811a-4643e69f67b3")
-		(property "Reference" "C14"
+		(property "Reference" "C7"
 			(at 118.11 85.0962 0)
 			(effects
 				(font
@@ -14070,7 +14070,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C14")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14085,7 +14085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f0ea1d1-d0a0-41f3-98bf-7c161db30fbf")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 166.37 49.53 0)
 			(effects
 				(font
@@ -14134,7 +14134,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14149,7 +14149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10eed916-624e-4ff0-8349-91e20bc15de1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 111.76 102.87 0)
 			(effects
 				(font
@@ -14198,7 +14198,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -14213,7 +14213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12e75f57-9f04-4faf-9486-2e60360bda8d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 250.19 21.59 0)
 			(effects
 				(font
@@ -14261,7 +14261,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -14276,7 +14276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13d6bcbc-8bc0-466f-a3e2-541d13797c25")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 83.82 157.48 0)
 			(effects
 				(font
@@ -14324,7 +14324,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14340,7 +14340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1558c068-c56d-473b-abd4-d59b9cbeb800")
-		(property "Reference" "C15"
+		(property "Reference" "C8"
 			(at 118.11 153.6762 0)
 			(effects
 				(font
@@ -14394,7 +14394,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C15")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -14535,7 +14535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bd53eb2-c50a-43de-ba84-5876b928065c")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR023"
 			(at 115.57 165.1 0)
 			(effects
 				(font
@@ -14583,7 +14583,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR063")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -14805,7 +14805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25df657e-d10b-434f-816b-5861e0e94395")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 170.18 29.21 0)
 			(effects
 				(font
@@ -14855,7 +14855,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14870,7 +14870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28c0907b-4176-4774-8048-7830448746d8")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 195.58 33.02 0)
 			(effects
 				(font
@@ -14918,7 +14918,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -14996,7 +14996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2df751be-6ed0-47e1-b134-ad086e029cfb")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 102.87 60.96 0)
 			(effects
 				(font
@@ -15045,7 +15045,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15126,7 +15126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ef7be90-cf69-4e54-9f76-b8c29f53f14b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -15174,7 +15174,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15189,7 +15189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f2000a7-0f29-4136-87ef-ed62eb40ec8f")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 181.102 51.816 0)
 			(effects
 				(font
@@ -15243,7 +15243,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15258,7 +15258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ffb45b2-f256-4967-b7cd-59b9959dbf70")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 207.01 143.51 0)
 			(effects
 				(font
@@ -15307,7 +15307,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -15746,7 +15746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b2a4c0a-d5d3-4f29-bf1c-65cfe34190ff")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 173.99 132.08 0)
 			(effects
 				(font
@@ -15794,7 +15794,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -15809,7 +15809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3dcbac1a-687c-4ea5-9765-d64ab1efd092")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 130.81 73.66 0)
 			(effects
 				(font
@@ -15857,7 +15857,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -16084,7 +16084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45cd69a6-ce10-48e6-a18b-3a3fced85ec4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 83.82 46.99 0)
 			(effects
 				(font
@@ -16133,7 +16133,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -16148,7 +16148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4790b196-fab4-470e-a3ba-03440dc42d5f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 125.73 62.23 0)
 			(effects
 				(font
@@ -16197,7 +16197,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16833,7 +16833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b9ecdfa-0ede-4f60-9f81-d1e1dbb8f30a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 191.77 24.13 0)
 			(effects
 				(font
@@ -16883,7 +16883,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -16898,7 +16898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e038802-b8a1-4630-ad00-536c233be344")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 93.98 57.15 0)
 			(effects
 				(font
@@ -16946,7 +16946,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16961,7 +16961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fe32189-a60e-4f44-8ccd-3ca75a59c3e3")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 104.14 30.48 0)
 			(effects
 				(font
@@ -17010,7 +17010,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -17025,7 +17025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60b3eeef-d367-4b5c-8d00-b74f9eb8cba1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 85.09 182.88 0)
 			(effects
 				(font
@@ -17073,7 +17073,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -17088,7 +17088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "612d5d80-d8e9-4103-a025-48168c4e72f4")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 93.98 125.73 0)
 			(effects
 				(font
@@ -17136,7 +17136,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -17151,7 +17151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "623a5986-13c5-4574-913a-624e4eb864ac")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 173.99 146.05 0)
 			(effects
 				(font
@@ -17199,7 +17199,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -17214,7 +17214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66e1a3da-6bc1-420c-a5d9-c5df10e62e57")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 196.85 165.1 0)
 			(effects
 				(font
@@ -17262,7 +17262,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -17277,7 +17277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cbc553d-a2a6-4bcd-b8eb-387d4d2d0e97")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 107.95 156.21 0)
 			(effects
 				(font
@@ -17326,7 +17326,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -17416,7 +17416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7536e49d-99c8-4b2d-b1a3-3f7adb34b309")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 190.5 64.77 0)
 			(effects
 				(font
@@ -17464,7 +17464,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -17732,7 +17732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82ecafff-847c-49f8-b9aa-c17e6b6256cc")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 186.69 49.53 0)
 			(effects
 				(font
@@ -17781,7 +17781,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17796,7 +17796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "835fed39-5c73-43a2-a399-b5648e8a3d5f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 148.59 198.12 0)
 			(effects
 				(font
@@ -17844,7 +17844,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17860,7 +17860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "837f4b14-0afb-45c4-b446-25df88c1171d")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 133.35 62.2362 0)
 			(effects
 				(font
@@ -17914,7 +17914,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -17929,7 +17929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "842e790c-8437-4f3c-b561-cb99eb3cfb11")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 207.01 165.1 0)
 			(effects
 				(font
@@ -17977,7 +17977,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -18159,7 +18159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87dbd940-f14b-43c1-a0fb-fac193499185")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -18207,7 +18207,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -18223,7 +18223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90d16b60-0b84-46a0-84c4-39c386588436")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 209.55 22.8662 0)
 			(effects
 				(font
@@ -18277,7 +18277,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -18292,7 +18292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "986562b9-2b36-4344-be7e-d9270247f9f7")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 166.37 64.77 0)
 			(effects
 				(font
@@ -18340,7 +18340,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -18355,7 +18355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a7833b0-ef28-4ba1-950b-cdab237b2479")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 104.14 40.64 0)
 			(effects
 				(font
@@ -18403,7 +18403,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -18418,7 +18418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c3870bb-5f13-4914-a7de-91b2bcf0f667")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 145.542 138.43 90)
 			(effects
 				(font
@@ -18472,7 +18472,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -18553,7 +18553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0ca8378-1433-450c-9c23-89a00cdeda4d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 137.16 30.48 0)
 			(effects
 				(font
@@ -18601,7 +18601,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -18749,7 +18749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3e3f94b-c42c-4bc1-a9c0-084244016049")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 107.95 87.63 0)
 			(effects
 				(font
@@ -18798,7 +18798,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -19113,7 +19113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1bc4086-2f5b-4eb6-9ca7-de5c5233b4d0")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 83.82 88.9 0)
 			(effects
 				(font
@@ -19161,7 +19161,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19248,7 +19248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc23959d-d38c-4db2-811e-269b5da49f91")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 199.39 86.36 0)
 			(effects
 				(font
@@ -19296,7 +19296,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -19311,7 +19311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc4e21a8-a772-49f0-83ea-8f09f6ffd565")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -19359,7 +19359,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -19444,7 +19444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc88892e-7884-4cf7-8297-68364e8b197c")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 209.3214 153.7716 0)
 			(effects
 				(font
@@ -19498,7 +19498,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -19513,7 +19513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdcba1de-2d60-42e8-b16e-5b94d72aa559")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 196.85 143.51 0)
 			(effects
 				(font
@@ -19562,7 +19562,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -19886,7 +19886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce7cf562-585f-4ba2-aa3b-373a2b25f191")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 148.59 176.53 0)
 			(effects
 				(font
@@ -19934,7 +19934,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -20134,7 +20134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d40c7579-05db-436f-8d15-42cbcd847992")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 125.73 97.79 0)
 			(effects
 				(font
@@ -20182,7 +20182,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -20198,7 +20198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d682c0f6-4aed-4bd2-8e0b-d6ea1a4e08f3")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -20248,7 +20248,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -20263,7 +20263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da15a30e-e502-40bc-8f51-703d6bf41450")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 256.54 24.13 0)
 			(effects
 				(font
@@ -20310,7 +20310,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -20393,7 +20393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "defd3453-b4ce-4cc5-b438-9e855ac974a5")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 101.6 113.03 0)
 			(effects
 				(font
@@ -20441,7 +20441,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -20456,7 +20456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df92be4a-1a11-4776-b161-577301e2e217")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 145.542 69.85 90)
 			(effects
 				(font
@@ -20510,7 +20510,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -20777,7 +20777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eedf1c81-f5a3-4f6f-b13d-7ffc42d72d5f")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR05"
 			(at 82.55 115.57 0)
 			(effects
 				(font
@@ -20826,7 +20826,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR062")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -20841,7 +20841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f681f550-a32e-4404-ba3a-8840276ac14c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 102.87 129.54 0)
 			(effects
 				(font
@@ -20890,7 +20890,7 @@
 		(instances
 			(project "bitseithr-complete"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
