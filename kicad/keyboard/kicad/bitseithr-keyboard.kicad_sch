@@ -1,0 +1,8660 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "96774cd5-d98a-4628-a335-15c2c4a6bad9")
+	(paper "A4")
+	(title_block
+		(title "bitseithr synth - keyboard")
+		(rev "v1")
+		(company "Offworld Serpent Devices")
+	)
+	(lib_symbols
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA_Lib:3296W-1-102LF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1kΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:RES-ADJ-TH_3296W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/3296W-1-102LF/58119.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistance:1kΩ Tolerance:±10% Tolerance:±10% Power(Watts):500mW Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Number of Turns:"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "3296W-1-102LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "BOURNS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C57089"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "1kΩ ±10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3296W-1-102LF_1_0"
+				(polyline
+					(pts
+						(xy -0.254 0) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -1.016 -0.508) (xy -1.016 -0.508) (xy -1.016 0.508) (xy -1.016 0.508) (xy 0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -2.54) (xy 0.254 2.54) (xy 0.254 2.54) (xy 2.794 2.54) (xy 2.794 2.54) (xy 2.794 -2.54)
+						(xy 2.794 -2.54) (xy 0.254 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA_Lib:IDC Box 2X10 2.54MM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:IDC-TH_20P-L33.0-W13.8-H-M-R2-C10-P2.54-S2.54-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/2.54-2*10P%25E5%25BC%25AF%25E7%25AE%2580%25E7%2589%259B/9667.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector Type:IDC Header Pitch:2.54mm Number of Positions or Pins:2x10P Current Rating:3A Holder Type:Right Angle Row Spacing:2.54mm Number of Rows:2 Number of PINs Per Row:10 Contact Material:Brass Contact Plating:- Operating Temperature:-40°C~+105°C Oper"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "2.54-2*10P弯简牛"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "BOOMELE(博穆精密)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C9144"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "2.54mm 2x10P 排数:2 每排P数:10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IDC Box 2X10 2.54MM_1_0"
+				(polyline
+					(pts
+						(xy -3.81 12.7) (xy 3.81 12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -12.7) (xy 3.81 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 -13.97)
+					(end 3.81 13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -8.89 11.43 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 8.89 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 6.35 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 3.81 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 1.27 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -1.27 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -3.81 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -6.35 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -8.89 0)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -11.43 0)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 11.43 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 8.89 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 6.35 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 3.81 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 1.27 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -1.27 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -3.81 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -6.35 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -8.89 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -11.43 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MX"
+				(at -0.635 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MX-NoLED-MX_Alps_Hybrid"
+				(at -0.635 1.27 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.875 -0.635 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -15.875 -0.635 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX-NoLED-MX_Alps_Hybrid_0_0"
+				(rectangle
+					(start -2.54 2.54)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 1.27) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ROW"
+					(at 0 -1.905 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+						(justify right)
+					)
+				)
+				(text "COL"
+					(at 3.175 0 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "MX-NoLED-MX_Alps_Hybrid_1_1"
+				(pin passive line
+					(at -1.27 -3.81 90)
+					(length 2.54)
+					(name "ROW"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 1.27 180)
+					(length 2.54)
+					(name "COL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+9V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+9V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+9V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+9V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+9V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 54.61 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043050b1-9622-41b8-8ba4-2db2bd40e762")
+	)
+	(junction
+		(at 46.99 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09a9efdd-4b78-477b-8c9c-9d5399244b87")
+	)
+	(junction
+		(at 59.69 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e43d280-52cb-4748-aeb0-27f633254e9e")
+	)
+	(junction
+		(at 123.19 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10b65ca6-8ca0-47ba-a1b7-7b1b676a91b1")
+	)
+	(junction
+		(at 123.19 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1141e86d-686b-410b-91ce-f4cdac655110")
+	)
+	(junction
+		(at 97.79 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12e76702-8eb8-4b14-9cbe-9abb3c999f7b")
+	)
+	(junction
+		(at 105.41 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "185f0de1-9279-4389-b775-6a4f248cab13")
+	)
+	(junction
+		(at 67.31 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c662859-fcbb-462c-90e3-14f76783e7ee")
+	)
+	(junction
+		(at 46.99 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23ec2301-45ef-40cf-b940-8f7d99c92731")
+	)
+	(junction
+		(at 118.11 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2876e941-dc79-4cee-9f13-214991fd0b9c")
+	)
+	(junction
+		(at 166.37 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a90389c-a3e0-4ee6-9160-669bb8d59627")
+	)
+	(junction
+		(at 240.03 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31fe03c7-b0b8-4afc-9b8b-f8bea1d0bad2")
+	)
+	(junction
+		(at 46.99 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "335e2067-e340-4e97-8015-0c69481f52c5")
+	)
+	(junction
+		(at 130.81 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "377a6b2f-0780-4278-925c-56b700bcb4b7")
+	)
+	(junction
+		(at 54.61 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fd217ca-c3d4-44f1-a695-823a28bbe3b7")
+	)
+	(junction
+		(at 41.91 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44a18013-c369-4960-ba72-2592eead017f")
+	)
+	(junction
+		(at 67.31 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44d1322d-52f0-4a82-8ed2-079be278fa79")
+	)
+	(junction
+		(at 110.49 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b122b0e-d621-4cc3-96a1-31f6d1e534eb")
+	)
+	(junction
+		(at 123.19 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5264e6a0-709b-4324-aaac-a0046b1d14b4")
+	)
+	(junction
+		(at 92.71 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55aa1077-0b66-431a-bc70-631967804e3b")
+	)
+	(junction
+		(at 85.09 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a06edd6-4515-4552-a299-3af24df04639")
+	)
+	(junction
+		(at 123.19 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bbceabb-e000-45a5-84b2-7db10fb598c5")
+	)
+	(junction
+		(at 97.79 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5de518dc-f03f-49d0-b734-b9bd4a93ccc6")
+	)
+	(junction
+		(at 92.71 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e2a3ef9-8d3f-49df-af70-d045e172df4c")
+	)
+	(junction
+		(at 54.61 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66f80c8f-deca-49e2-9d9b-830de6ed5917")
+	)
+	(junction
+		(at 166.37 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6927fc75-06a8-4303-91f5-965165289307")
+	)
+	(junction
+		(at 85.09 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b96e307-263c-44c6-9e9a-8d3c5449c292")
+	)
+	(junction
+		(at 72.39 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "793a38a1-149f-4b6a-bf6c-b1974839f4c5")
+	)
+	(junction
+		(at 41.91 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f36a09b-1ce3-4469-9d74-d387e319eca6")
+	)
+	(junction
+		(at 105.41 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "802a1bae-bd20-4658-8918-633ac5a9723a")
+	)
+	(junction
+		(at 135.89 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85c44d9e-a332-44cd-9904-95978cf60cae")
+	)
+	(junction
+		(at 97.79 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95061643-bc48-447f-b729-7d580fd76807")
+	)
+	(junction
+		(at 105.41 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99d55819-cf5a-4069-b67b-83d5324559e1")
+	)
+	(junction
+		(at 80.01 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b1e3aa6-c44c-454f-9ea4-4975e5d95d24")
+	)
+	(junction
+		(at 59.69 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a90eb77b-125d-419b-8b41-15ee5d3a65f5")
+	)
+	(junction
+		(at 41.91 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9584ceb-bceb-4909-a777-4afc3b09f2a8")
+	)
+	(junction
+		(at 118.11 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac7fd455-76bf-463b-9651-0c82d92e7d70")
+	)
+	(junction
+		(at 118.11 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adb092c8-e1db-44b4-b770-52e35fac6711")
+	)
+	(junction
+		(at 105.41 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aed8efab-bbd5-40d8-a7e0-756868ccd575")
+	)
+	(junction
+		(at 97.79 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3f5cb9a-19fb-40f8-a6a3-c7562985a675")
+	)
+	(junction
+		(at 110.49 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7194510-69c8-4f3c-8906-ede8037c6ce6")
+	)
+	(junction
+		(at 92.71 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba14028c-ab1c-4bdc-99a1-7f5d3ba3854c")
+	)
+	(junction
+		(at 92.71 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3419b17-d383-4f8b-bcf5-ab8167c8f326")
+	)
+	(junction
+		(at 80.01 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4f6d3ee-c575-40c3-af99-8b19e33ef5fa")
+	)
+	(junction
+		(at 92.71 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c642f0cb-c988-4366-b4ec-a52858eaf8ab")
+	)
+	(junction
+		(at 54.61 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7421fcc-e6bd-44d6-ade2-80592f221355")
+	)
+	(junction
+		(at 118.11 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf4b5354-a03d-45bb-943d-395c1fac4758")
+	)
+	(junction
+		(at 59.69 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0f29bef-8dbb-4af2-ac5a-cffb1edbccd3")
+	)
+	(junction
+		(at 166.37 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d370118f-7177-4711-bc10-0eb441ceaa54")
+	)
+	(junction
+		(at 41.91 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e01a4f94-c779-4243-9f9a-8c2d598d50fc")
+	)
+	(junction
+		(at 67.31 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed234d07-3d33-43be-8882-f84a33ab67ee")
+	)
+	(junction
+		(at 130.81 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed3ee780-96c0-4bd1-86d5-2217715db67d")
+	)
+	(junction
+		(at 41.91 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3138563-c844-43b7-b1e4-03b624221276")
+	)
+	(junction
+		(at 72.39 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6d9e732-0db7-4dce-a286-092c63dd76c2")
+	)
+	(junction
+		(at 110.49 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8b4ff4-ffaf-4340-9bd6-2fc2dc6d7368")
+	)
+	(no_connect
+		(at 242.57 31.75)
+		(uuid "428113c5-1ed4-48e2-a310-82c10a20bde4")
+	)
+	(no_connect
+		(at 240.03 31.75)
+		(uuid "5ff6678b-9a15-4fe2-b528-1957f3229ac2")
+	)
+	(no_connect
+		(at 242.57 49.53)
+		(uuid "fedbdad0-6cec-4f13-a1f1-02063923b721")
+	)
+	(wire
+		(pts
+			(xy 85.09 147.32) (xy 85.09 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b2d387-5c86-449f-b4e4-0a53d085ebe1")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d62458-a96e-4934-97d2-5b79c99345bd")
+	)
+	(wire
+		(pts
+			(xy 123.19 60.96) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c9c383-e509-4edd-9a96-2079771da5e4")
+	)
+	(wire
+		(pts
+			(xy 213.36 29.21) (xy 219.71 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159d18c1-f0ad-41cd-807b-64292c006cb9")
+	)
+	(wire
+		(pts
+			(xy 38.1 138.43) (xy 41.91 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a947ed5-33d6-4b22-a82f-578b3e40776a")
+	)
+	(wire
+		(pts
+			(xy 213.36 30.48) (xy 213.36 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1e24a4-5724-4a7c-bdcf-be77be04b8fc")
+	)
+	(wire
+		(pts
+			(xy 41.91 95.25) (xy 54.61 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328f9a1d-fe91-4d5d-9df0-aac5a4d71695")
+	)
+	(wire
+		(pts
+			(xy 85.09 104.14) (xy 85.09 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35490398-3da9-41d3-b5c4-2d32ff8dbdde")
+	)
+	(wire
+		(pts
+			(xy 38.1 181.61) (xy 80.01 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370af63e-41a4-448c-ac9d-a5fe8c5ceb0b")
+	)
+	(wire
+		(pts
+			(xy 67.31 116.84) (xy 80.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e3193b-9e13-46e1-9c13-15012bd01e75")
+	)
+	(wire
+		(pts
+			(xy 118.11 116.84) (xy 130.81 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "392253c9-804a-4ba2-a2bb-661e0ebc1958")
+	)
+	(wire
+		(pts
+			(xy 38.1 116.84) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2135d2-f70f-4b16-b2f8-49be68a5520f")
+	)
+	(wire
+		(pts
+			(xy 166.37 125.73) (xy 166.37 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0efc10-09da-4ef4-a5a6-5b985cc39d54")
+	)
+	(wire
+		(pts
+			(xy 236.22 107.95) (xy 236.22 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e463346-cc05-4e91-8561-8d6c880fff5b")
+	)
+	(wire
+		(pts
+			(xy 67.31 73.66) (xy 92.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ad4e2b-d785-4136-94b6-5d3094e8b327")
+	)
+	(wire
+		(pts
+			(xy 41.91 138.43) (xy 54.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e49397-7403-4107-8afb-28fe24b02a01")
+	)
+	(wire
+		(pts
+			(xy 80.01 116.84) (xy 92.71 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f665ae-29b8-4b46-a3be-ac02c9bcd84b")
+	)
+	(wire
+		(pts
+			(xy 105.41 160.02) (xy 118.11 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444dee7f-d015-4af1-97f6-336b25e467fe")
+	)
+	(wire
+		(pts
+			(xy 110.49 104.14) (xy 110.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1b57fd-523b-44c0-8691-80d3927db531")
+	)
+	(wire
+		(pts
+			(xy 105.41 116.84) (xy 92.71 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab3a77d-f013-4028-afab-653188d81584")
+	)
+	(wire
+		(pts
+			(xy 110.49 125.73) (xy 110.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52efbce6-e0e1-41ab-8db1-f157dc19a747")
+	)
+	(wire
+		(pts
+			(xy 105.41 116.84) (xy 118.11 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5585b86e-87e5-4449-9270-8d73b1384666")
+	)
+	(wire
+		(pts
+			(xy 72.39 104.14) (xy 72.39 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594d16d7-c706-4b81-8a00-35ebb928d0fc")
+	)
+	(wire
+		(pts
+			(xy 41.91 160.02) (xy 54.61 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5979f5c4-4b31-49a9-9c66-8f89bbbf304c")
+	)
+	(wire
+		(pts
+			(xy 38.1 95.25) (xy 41.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ef5fda-83d7-44ec-8e1c-3c11659e05d4")
+	)
+	(wire
+		(pts
+			(xy 92.71 138.43) (xy 105.41 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63165b60-9b2c-4a29-a802-c3f938c19e36")
+	)
+	(wire
+		(pts
+			(xy 38.1 73.66) (xy 41.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64897180-d88b-4d6e-9133-0835a0b35f3d")
+	)
+	(wire
+		(pts
+			(xy 97.79 125.73) (xy 97.79 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677a0422-a879-44f0-8d77-5e430fe9e1ab")
+	)
+	(wire
+		(pts
+			(xy 85.09 104.14) (xy 85.09 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b23f973-d9e3-4712-97d9-4475cf02fcb7")
+	)
+	(wire
+		(pts
+			(xy 54.61 95.25) (xy 92.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1c571e-742a-47b0-86a3-4867a39f2d68")
+	)
+	(wire
+		(pts
+			(xy 240.03 113.03) (xy 240.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73292559-880d-4235-b4de-fa72536a0f44")
+	)
+	(wire
+		(pts
+			(xy 219.71 29.21) (xy 219.71 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739dcc9c-c086-472d-ad38-11038d3d94ae")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 219.71 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75faf1a7-81d5-46d8-a9b6-a9bd3fad0eaf")
+	)
+	(wire
+		(pts
+			(xy 105.41 138.43) (xy 118.11 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a70c37-cb49-4974-aee5-2bc557f6cc01")
+	)
+	(wire
+		(pts
+			(xy 240.03 101.6) (xy 240.03 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbf4536-9bea-4c21-843d-c5946b9c0e25")
+	)
+	(wire
+		(pts
+			(xy 97.79 104.14) (xy 97.79 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d612e59-a173-4646-ac53-329a27d961c0")
+	)
+	(wire
+		(pts
+			(xy 46.99 104.14) (xy 46.99 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e43705b-37e5-44c4-b6a8-309aa78061b1")
+	)
+	(wire
+		(pts
+			(xy 59.69 125.73) (xy 59.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8024e0c3-841e-4139-9a82-1ec37cdb01c6")
+	)
+	(wire
+		(pts
+			(xy 80.01 160.02) (xy 92.71 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd81ecc-0141-4336-ad16-e0e7c0791e31")
+	)
+	(wire
+		(pts
+			(xy 123.19 53.34) (xy 123.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943ec722-cf81-4621-95da-9f9197f6923d")
+	)
+	(wire
+		(pts
+			(xy 46.99 82.55) (xy 46.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970c6aed-0882-4117-9f22-1aeaf52e144f")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 72.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97813537-506c-466a-9050-6e692bc26078")
+	)
+	(wire
+		(pts
+			(xy 97.79 60.96) (xy 97.79 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ca82b4-dc1f-4f35-a7b0-a1c9edd14f39")
+	)
+	(wire
+		(pts
+			(xy 166.37 104.14) (xy 166.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0200e3-937d-4ff9-bf42-2f9262b680b6")
+	)
+	(wire
+		(pts
+			(xy 92.71 95.25) (xy 105.41 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be47cd5-09e8-4853-b0c5-7266d9fcb933")
+	)
+	(wire
+		(pts
+			(xy 41.91 116.84) (xy 54.61 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f14c356-8fa3-4d2f-b9a8-389edcf7afbb")
+	)
+	(wire
+		(pts
+			(xy 166.37 82.55) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fac6596-de99-485f-b64a-de4240336f75")
+	)
+	(wire
+		(pts
+			(xy 123.19 125.73) (xy 123.19 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b8b1f7-c605-44ef-a1bd-3173a4d84940")
+	)
+	(wire
+		(pts
+			(xy 105.41 95.25) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41ae1e4-9bb7-44cb-b17e-8809f87008e2")
+	)
+	(wire
+		(pts
+			(xy 123.19 104.14) (xy 123.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5259ae6-4f4c-4a2d-82d1-466e245ae839")
+	)
+	(wire
+		(pts
+			(xy 130.81 160.02) (xy 161.29 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a692165f-625a-4d62-886a-d076a4b067a2")
+	)
+	(wire
+		(pts
+			(xy 54.61 160.02) (xy 67.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a953ef55-3a5c-47fd-965c-eba6ad5dd22c")
+	)
+	(wire
+		(pts
+			(xy 54.61 138.43) (xy 92.71 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1d532c-8d78-450c-9fcc-34c5416e63c2")
+	)
+	(wire
+		(pts
+			(xy 236.22 102.87) (xy 240.03 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb9ea47-34b2-4692-a8ba-01ae60347cea")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 135.89 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af39c8ba-cede-4ed1-9224-1e4fa644f194")
+	)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 123.19 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b55095ea-a1be-45fc-a003-d985403c1e19")
+	)
+	(wire
+		(pts
+			(xy 118.11 95.25) (xy 161.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b1ef4c-7a96-444f-95fd-a40d287a4ab7")
+	)
+	(wire
+		(pts
+			(xy 166.37 53.34) (xy 166.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27981d0-d256-4171-b766-0a221528c71b")
+	)
+	(wire
+		(pts
+			(xy 110.49 53.34) (xy 110.49 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4797875-e610-441b-819a-1a86325e2c00")
+	)
+	(wire
+		(pts
+			(xy 118.11 138.43) (xy 161.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78af51b-2ec2-4eaa-9f63-2de7348daf31")
+	)
+	(wire
+		(pts
+			(xy 59.69 82.55) (xy 59.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8586e50-1f17-40ef-8d3a-067c291faef1")
+	)
+	(wire
+		(pts
+			(xy 67.31 73.66) (xy 41.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f76941-5a9f-43c3-bf18-c75665a613ff")
+	)
+	(wire
+		(pts
+			(xy 130.81 116.84) (xy 161.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2c8050-6c30-4e49-8f29-3f4d22dc74da")
+	)
+	(wire
+		(pts
+			(xy 97.79 82.55) (xy 97.79 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7ebb55-0e8b-40aa-ab7e-50c14ef439eb")
+	)
+	(wire
+		(pts
+			(xy 118.11 160.02) (xy 130.81 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1594748-453c-4d0f-aa66-bc47e568a4f5")
+	)
+	(wire
+		(pts
+			(xy 110.49 82.55) (xy 110.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d255528f-a645-4c34-be9f-51c8852d8fd3")
+	)
+	(wire
+		(pts
+			(xy 59.69 104.14) (xy 59.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e311d9-247e-450b-8ebf-4416b8efab63")
+	)
+	(wire
+		(pts
+			(xy 46.99 53.34) (xy 46.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd407f99-8808-4cdc-80fe-c66debda5496")
+	)
+	(wire
+		(pts
+			(xy 92.71 160.02) (xy 105.41 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14c47eb-9ddb-42d8-9390-168b401930c1")
+	)
+	(wire
+		(pts
+			(xy 135.89 53.34) (xy 135.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c68c31-4c68-4300-82a8-4b0aefd01140")
+	)
+	(wire
+		(pts
+			(xy 67.31 160.02) (xy 80.01 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6007c9-4961-4b20-92d7-4d123d8b04d3")
+	)
+	(wire
+		(pts
+			(xy 59.69 53.34) (xy 59.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6dcc99-9a1e-4eb3-88a6-1ec83ba51d61")
+	)
+	(wire
+		(pts
+			(xy 97.79 60.96) (xy 97.79 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f282468e-acb9-49f5-8d6a-8a112d74fc0a")
+	)
+	(wire
+		(pts
+			(xy 240.03 119.38) (xy 240.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36ecee4-0e1f-4d08-843e-5bc2a99dbb7b")
+	)
+	(wire
+		(pts
+			(xy 54.61 116.84) (xy 67.31 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d2e6af-0f9b-4f85-9a58-ede58c693b4a")
+	)
+	(wire
+		(pts
+			(xy 92.71 73.66) (xy 118.11 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6adee47-5dbb-48d2-b5a9-da0d12672fac")
+	)
+	(wire
+		(pts
+			(xy 46.99 125.73) (xy 46.99 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8e4cd3-6dc4-41c6-befa-dee1db1bfa52")
+	)
+	(wire
+		(pts
+			(xy 38.1 160.02) (xy 41.91 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feedf25a-7bd1-4333-9c84-c9532a5854c3")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 72.39 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff85b19d-d016-49da-8b98-c2ab2c9022dc")
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 222.25 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "002a3fc3-58e7-49d3-98af-2f5cce611349")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.25 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 85.09 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06e7a9ea-b84e-4b9b-8fc8-e47a29b94b0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 123.19 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0854d339-bb7b-49c1-8a68-f62234a9143f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 38.1 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f0a2f4f-85fb-466c-ab35-37976b933031")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 59.69 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "190ed957-50b2-430a-b4b0-8261856d4ff8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 237.49 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cb64a79-9029-460e-8766-48498223b036")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 72.39 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25dc4f37-59e5-448b-bf54-ffc8336d25ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 135.89 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a8f711b-98e3-4da8-9ce5-93e256c4b906")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 234.95 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41ec8e36-156c-414d-ae55-5b72950f6c99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW5"
+		(shape input)
+		(at 38.1 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "435cacd8-d1ff-4a4b-9165-c3b8af69331a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 227.33 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49fffe77-e757-4771-ad59-435d617b859a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 46.99 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56dc9601-81bd-4133-8afd-4a817bccb288")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL8"
+		(shape input)
+		(at 240.03 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a0c3422-7f97-43fa-9389-ac0168ae1066")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 222.25 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b1488aa-36a7-47ec-95a0-89a2e92c1751")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.25 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 229.87 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72b7106a-12bd-49b9-bbb8-217dc6a393fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.87 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW5"
+		(shape input)
+		(at 227.33 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ce58db4-0d2a-4cfb-8f81-51e86f2bd2ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 38.1 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e1b3a20-c7c6-4e2d-a99b-1ace13db69c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 38.1 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95f192fc-6507-460b-88b2-a253bc07890a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 232.41 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9801858f-9417-4915-abf5-1f77579c755d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 38.1 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf411dc6-1d34-4788-977b-2886047b4872")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 97.79 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfb405e9-4c88-4768-95ce-33a106e53bcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 38.1 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1c18a31-f988-410f-81f8-9b3124eb67ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 234.95 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1f60ccc-feae-459e-9651-be074d4a1dd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 237.49 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbd947eb-85c7-41e8-bce0-8939a52b5288")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 224.79 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d251e616-50aa-404e-879f-702bf269a426")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.79 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 229.87 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7ee2e7e-0690-492b-9417-f5fbb28905c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 110.49 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4eea41d-3e1f-4f64-8252-c4fd3f1a9382")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 232.41 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5afa433-1915-40cb-9f48-973646aaf37f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL8"
+		(shape input)
+		(at 166.37 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e64b0640-56da-4a25-870b-9a0e0ddcffee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 224.79 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed15f30a-9fbd-422e-9c95-6b48fb95db95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.79 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 43.18 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006099c682")
+		(property "Reference" "MX4"
+			(at 44.0182 121.3358 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 44.0182 123.2154 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 27.305 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.305 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cc6cab3e-7272-4366-af60-897fc8cda690")
+		)
+		(pin "1"
+			(uuid "aa39aad9-f954-466e-8264-bdcb18ef3ff7")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 55.88 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006099dc8f")
+		(property "Reference" "MX8"
+			(at 56.7182 121.3358 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 56.7182 123.2154 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 40.005 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.005 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e49ca2fd-7095-4984-a594-79370a1cd0d6")
+		)
+		(pin "1"
+			(uuid "ee1d3e5a-8f9e-423b-972d-7621945f0873")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 93.98 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609a1aef")
+		(property "Reference" "MX19"
+			(at 94.8182 121.3358 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 94.8182 123.2154 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 78.105 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.105 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b44285e-0c0a-4712-b74d-3d46d4930f6c")
+		)
+		(pin "2"
+			(uuid "f4d80eb9-e260-4573-afc8-7e4bd3853c9c")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 106.68 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609a1af5")
+		(property "Reference" "MX23"
+			(at 107.5182 121.3358 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 107.5182 123.2154 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 90.805 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.805 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e5a1bfd1-7f27-4c34-989a-b90ab4c1cfda")
+		)
+		(pin "1"
+			(uuid "ea7a48af-88b5-49d2-bf8e-efd2935f202d")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 119.38 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609a1afb")
+		(property "Reference" "MX28"
+			(at 120.2182 121.3358 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 120.2182 123.2154 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 103.505 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.505 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4b8bf843-3128-4090-86af-8a224c475f5e")
+		)
+		(pin "1"
+			(uuid "9fc3a2f8-0617-48aa-831d-cebec4118774")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 41.91 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609a5451")
+		(property "Reference" "D5"
+			(at 43.942 133.4516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 43.942 135.763 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 46.355 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 41.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d061ca7-d685-487d-9a20-4b10dd99ce2d")
+		)
+		(pin "2"
+			(uuid "41a6ae70-2993-4ab1-aa70-f2f22f4e5829")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 54.61 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609a6561")
+		(property "Reference" "D9"
+			(at 56.642 133.4516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 56.642 135.763 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 59.055 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32768f50-2c28-4af8-8940-40513f9ab7a3")
+		)
+		(pin "2"
+			(uuid "1971eea8-cd3d-4eb3-a29f-9f2a72897f61")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 92.71 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609a726c")
+		(property "Reference" "D20"
+			(at 94.742 133.4516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 94.742 135.763 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 97.155 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e35aa7dd-c335-49a0-89ad-b8c0b79c2843")
+		)
+		(pin "1"
+			(uuid "676f5980-2af1-4787-b33e-b642edbe5ada")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 105.41 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609a769e")
+		(property "Reference" "D24"
+			(at 107.442 133.4516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 107.442 135.763 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 109.855 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa255d09-df01-4928-bf14-a560c8768d68")
+		)
+		(pin "1"
+			(uuid "4d50a7f3-01fa-433f-b759-9b51340b8690")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 118.11 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609a7cef")
+		(property "Reference" "D29"
+			(at 120.142 133.4516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 120.142 135.763 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 122.555 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9f598ce6-e64e-4b6e-8b2b-cd2fd86203a3")
+		)
+		(pin "1"
+			(uuid "d4906211-6caa-4660-a3a1-f2bb529a77d7")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 43.18 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7b3")
+		(property "Reference" "MX3"
+			(at 44.0182 99.7458 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 44.0182 101.6254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 27.305 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.305 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d426d4da-238c-4112-8b45-91196ae3626c")
+		)
+		(pin "1"
+			(uuid "f0aa4659-1a37-463e-92b4-62085ebefa32")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 55.88 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7b9")
+		(property "Reference" "MX7"
+			(at 56.7182 99.7458 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 56.7182 101.6254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 40.005 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.005 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b7044a9d-8e0b-4a9b-b904-a28779fea424")
+		)
+		(pin "1"
+			(uuid "be2c327b-4a33-41a0-b748-49780d91e438")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 68.58 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7bf")
+		(property "Reference" "MX11"
+			(at 69.4182 99.7458 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 69.4182 101.6254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 52.705 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.705 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ce97831-5162-457e-9151-e7b2a3e6117a")
+		)
+		(pin "1"
+			(uuid "5fa86a88-e59d-4bb9-b3e5-db33354aeb1f")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 81.28 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7c5")
+		(property "Reference" "MX13"
+			(at 82.1182 99.7458 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 82.1182 101.6254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 65.405 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 65.405 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a841fa34-bb64-418b-b0fd-3b7e1cb2ab6c")
+		)
+		(pin "1"
+			(uuid "1233760c-e926-4b0d-a915-cf67f551636e")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 93.98 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7cb")
+		(property "Reference" "MX18"
+			(at 94.8182 99.7458 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 94.8182 101.6254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 78.105 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.105 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5d70d0b0-e679-4a3a-b8bb-aca4d35f50b3")
+		)
+		(pin "1"
+			(uuid "738a5dff-b0d2-457b-8c5a-be790a57768b")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 106.68 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7d1")
+		(property "Reference" "MX22"
+			(at 107.5182 99.7458 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 107.5182 101.6254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 90.805 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.805 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4f4a4aa7-16ae-46da-a778-f7bc970ca803")
+		)
+		(pin "1"
+			(uuid "1b91a321-2f18-49dd-a78e-6dd72767fd6e")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 119.38 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7d7")
+		(property "Reference" "MX27"
+			(at 120.2182 99.7458 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 120.2182 101.6254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 103.505 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.505 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67019859-1eab-407f-880f-78fe17c9a9b3")
+		)
+		(pin "2"
+			(uuid "9a7a9054-9bc2-4d91-b35c-65bef46037f7")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 41.91 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7dd")
+		(property "Reference" "D4"
+			(at 43.942 111.8616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 43.942 114.173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 46.355 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 41.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f90c1d42-ba25-4919-bac3-b0a761ca17a6")
+		)
+		(pin "2"
+			(uuid "f78ccf90-bad6-4a09-9186-5022b86ba504")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 54.61 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7e3")
+		(property "Reference" "D8"
+			(at 56.642 111.8616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 56.642 114.173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 59.055 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 54.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75e92870-5e85-4f4b-adad-52d6b7dad51f")
+		)
+		(pin "2"
+			(uuid "dd0a7460-4224-4cc4-9f20-96eac3acfb84")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 67.31 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7e9")
+		(property "Reference" "D12"
+			(at 69.342 111.8616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 69.342 114.173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 71.755 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 67.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f155cbd-bfbf-400e-a4ee-bfa467263dcb")
+		)
+		(pin "2"
+			(uuid "5b007843-82db-4598-a9ed-25342a3a8dde")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 80.01 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7ef")
+		(property "Reference" "D14"
+			(at 82.042 111.8616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 82.042 114.173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 84.455 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "456141a7-a746-43ee-a6ed-8521d4d0d338")
+		)
+		(pin "2"
+			(uuid "1d4382d1-5f99-4dc0-b8ec-59cdd02dac15")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 92.71 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7f5")
+		(property "Reference" "D19"
+			(at 94.742 111.8616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 94.742 114.173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 97.155 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 92.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b45aa87d-7485-4596-ac16-ea26aee3a190")
+		)
+		(pin "1"
+			(uuid "6e6e4ffc-6e85-4817-819c-c4fa68d14c93")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 105.41 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf7fb")
+		(property "Reference" "D23"
+			(at 107.442 111.8616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 107.442 114.173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 109.855 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "74d645bb-981c-41a9-9283-ea5c120a259a")
+		)
+		(pin "1"
+			(uuid "46749c09-6255-484f-b843-c81ad750af93")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 118.11 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609cf801")
+		(property "Reference" "D28"
+			(at 120.142 111.8616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 120.142 114.173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 122.555 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b61fb8a6-d946-4875-9ad2-ae17fdc716aa")
+		)
+		(pin "1"
+			(uuid "a3a932c0-78df-4a3c-99ba-080f035c9d03")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 43.18 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609e0a63")
+		(property "Reference" "MX2"
+			(at 44.0182 78.1558 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 44.0182 80.0354 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 27.305 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.305 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f40e01b0-986c-4775-ba24-444caa223ac7")
+		)
+		(pin "1"
+			(uuid "e7af0b22-1169-4a46-a810-6b8d0b7e0569")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 55.88 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609e0a69")
+		(property "Reference" "MX6"
+			(at 56.7182 78.1558 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 56.7182 80.0354 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 40.005 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.005 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fb57ed13-2f30-452c-b3fb-8b3c3e5820c3")
+		)
+		(pin "1"
+			(uuid "6fa46d79-557d-4345-9a5e-aab85aedc37e")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 93.98 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609e0a7b")
+		(property "Reference" "MX17"
+			(at 94.8182 78.1558 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 94.8182 80.0354 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 78.105 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.105 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "af59591a-a60e-4758-ba92-878853b5fd2c")
+		)
+		(pin "1"
+			(uuid "accb0ed4-dc0f-4be4-849a-85a968aa4819")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 106.68 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609e0a81")
+		(property "Reference" "MX21"
+			(at 107.5182 78.1558 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 107.5182 80.0354 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 90.805 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.805 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c487a25-8cdd-4fd5-aa65-3e600f628c43")
+		)
+		(pin "1"
+			(uuid "f6bf5c61-ca30-4622-b6ab-422845d4f664")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 119.38 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609e0a87")
+		(property "Reference" "MX26"
+			(at 120.2182 78.1558 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 120.2182 80.0354 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 103.505 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.505 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "631714c6-8080-43b2-9beb-c3365d06794b")
+		)
+		(pin "1"
+			(uuid "fd5d3179-7731-4074-9a02-d9d69aa51069")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 41.91 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609e0a8d")
+		(property "Reference" "D3"
+			(at 43.942 90.2716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 43.942 92.583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 46.355 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbd4b02f-2170-4643-bb09-5ae04107ab49")
+		)
+		(pin "2"
+			(uuid "d5fa7a2a-fc69-4bc6-96ba-dc98aaaebc14")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 54.61 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609e0a93")
+		(property "Reference" "D7"
+			(at 56.642 90.2716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 56.642 92.583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 59.055 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97206365-8a7b-4539-8a14-74ca795881d5")
+		)
+		(pin "2"
+			(uuid "ae00fece-1171-47eb-a3b8-6d66c0a3a5a0")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 92.71 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609e0aa5")
+		(property "Reference" "D18"
+			(at 94.742 90.2716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 94.742 92.583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 97.155 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f750c3a8-0cb9-4d7a-bf6f-6393f2870ee6")
+		)
+		(pin "2"
+			(uuid "eb933231-a9f2-4b8e-aeee-4cc26326ab68")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 105.41 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609e0aab")
+		(property "Reference" "D22"
+			(at 107.442 90.2716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 107.442 92.583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 109.855 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08192aad-31ab-49f9-a610-2118d9de6a10")
+		)
+		(pin "2"
+			(uuid "d62e7b67-adca-4c84-98bc-0e5667098e19")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 118.11 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609e0ab1")
+		(property "Reference" "D27"
+			(at 120.142 90.2716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 120.142 92.583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 122.555 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ae5d659-35aa-4461-8c9c-368d0955c370")
+		)
+		(pin "2"
+			(uuid "c875e95a-4772-482b-8491-505027fc1bd5")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 43.18 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb78b")
+		(property "Reference" "MX5"
+			(at 44.0182 142.9258 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 44.0182 144.8054 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 27.305 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.305 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c6dd6195-1e69-4f6c-b33d-2d9dabe7faa4")
+		)
+		(pin "1"
+			(uuid "b3c0d776-1998-4c08-bc2d-9473d7e4230f")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 55.88 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb791")
+		(property "Reference" "MX9"
+			(at 56.7182 142.9258 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 56.7182 144.8054 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 40.005 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.005 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7b1fa82-6e7d-4686-8be8-620565a636a1")
+		)
+		(pin "1"
+			(uuid "6dd504ad-dfb2-4c2f-9ace-3ad155798204")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 68.58 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb797")
+		(property "Reference" "MX12"
+			(at 69.4182 142.9258 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 69.4182 144.8054 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 52.705 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.705 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "38ec4c3d-2117-40b6-8690-d6812a70179e")
+		)
+		(pin "1"
+			(uuid "672027fc-98c9-4893-ad95-9b5e0ebd76c6")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 81.28 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb79d")
+		(property "Reference" "MX14"
+			(at 82.1182 142.9258 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 82.1182 144.8054 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 65.405 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 65.405 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "15fbc932-f931-4bc0-b7a0-c35a59dfa6df")
+		)
+		(pin "1"
+			(uuid "57dbd3cd-5d7a-42a3-97e3-722dab767712")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 93.98 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb7a3")
+		(property "Reference" "MX20"
+			(at 94.8182 142.9258 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 94.8182 144.8054 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 78.105 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.105 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d44d0ce4-85ba-4892-97b5-6e39deb9dee9")
+		)
+		(pin "2"
+			(uuid "5a8b854b-de57-4827-a650-eb5039296083")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 106.68 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb7a9")
+		(property "Reference" "MX24"
+			(at 107.5182 142.9258 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 107.5182 144.8054 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 90.805 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.805 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0ee6593-9e0c-4ab6-b738-903085ad10ed")
+		)
+		(pin "2"
+			(uuid "4093bbfb-182e-4ba3-8ba7-135d934d1eda")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 119.38 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb7af")
+		(property "Reference" "MX29"
+			(at 120.2182 142.9258 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 120.2182 144.8054 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 103.505 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.505 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca298505-059c-483b-a3b8-3cbfc1c91db7")
+		)
+		(pin "2"
+			(uuid "3f74d3e9-8576-40b9-abd1-90605f0c1831")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 41.91 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb7b5")
+		(property "Reference" "D6"
+			(at 43.942 155.0416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 43.942 157.353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 46.355 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 41.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3f8d22b-dca2-4968-aeb4-19f5e00c7b50")
+		)
+		(pin "2"
+			(uuid "4cd5421f-7498-41ca-b97b-2ff653e6b197")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 54.61 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb7bb")
+		(property "Reference" "D10"
+			(at 56.642 155.0416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 56.642 157.353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 59.055 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 54.61 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71c1d070-72bb-4125-bf94-ecef09c4e5d4")
+		)
+		(pin "2"
+			(uuid "d96f3972-a40b-44ec-818c-479853bce14e")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 67.31 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb7c1")
+		(property "Reference" "D13"
+			(at 69.342 155.0416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 69.342 157.353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 71.755 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 67.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0680f19e-6933-47a4-a152-cdf20c4df86f")
+		)
+		(pin "2"
+			(uuid "11305766-58a9-4575-a555-f8abeb764744")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 80.01 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb7c7")
+		(property "Reference" "D15"
+			(at 82.042 155.0416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 82.042 157.353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 84.455 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7391f298-e1fc-45ed-96dc-421778935736")
+		)
+		(pin "2"
+			(uuid "5cc168ea-77ba-4029-bd14-dd1004c34025")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 92.71 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb7cd")
+		(property "Reference" "D21"
+			(at 94.742 155.0416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 94.742 157.353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 97.155 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "baba95f6-b877-4e15-8f69-ddd5e06c6d17")
+		)
+		(pin "1"
+			(uuid "8c587854-eaa7-43aa-b75a-c14afb64fd07")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 105.41 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb7d3")
+		(property "Reference" "D25"
+			(at 107.442 155.0416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 107.442 157.353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 109.855 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 105.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6b69838-82f9-4528-96cf-2221771f1e09")
+		)
+		(pin "2"
+			(uuid "3c301508-2f8f-42da-a1f0-34087f2b7824")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 118.11 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609eb7d9")
+		(property "Reference" "D30"
+			(at 120.142 155.0416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 120.142 157.353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 122.555 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec53ae4a-6f9d-4956-a073-15d33f8bb476")
+		)
+		(pin "1"
+			(uuid "88930aad-15b5-45cf-9f6e-652444c8dbf1")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 43.18 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609f8589")
+		(property "Reference" "MX1"
+			(at 44.0182 56.5658 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 44.0182 58.4454 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 27.305 62.865 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.305 62.865 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6254d61b-e001-4447-a68d-cce8a5a795db")
+		)
+		(pin "1"
+			(uuid "710559da-755b-4ae5-b8dc-c1e3b9c7c5be")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 68.58 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609f8595")
+		(property "Reference" "MX10"
+			(at 69.4182 56.5658 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 69.4182 58.4454 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 52.705 62.865 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.705 62.865 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa6ea35b-e180-4c5d-8de1-a7bd02ab1020")
+		)
+		(pin "1"
+			(uuid "0fd1224c-822d-43ed-8012-4dab454ecd29")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 93.98 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609f85a1")
+		(property "Reference" "MX16"
+			(at 94.8182 56.5658 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 94.8182 58.4454 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 78.105 62.865 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.105 62.865 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6fbd22a5-58bd-4dc6-8c10-67d3fac76500")
+		)
+		(pin "1"
+			(uuid "686e13d1-a9f2-4e85-9fce-57af21a15d6a")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 119.38 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609f85ad")
+		(property "Reference" "MX25"
+			(at 120.2182 56.5658 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 120.2182 58.4454 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 103.505 62.865 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.505 62.865 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1680936b-fba0-421e-8926-22d1e8c342bd")
+		)
+		(pin "1"
+			(uuid "21d6c359-908c-4bb9-9a8e-fedc615254af")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 67.31 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609f85bf")
+		(property "Reference" "D11"
+			(at 69.342 68.6816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 69.342 70.993 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 71.755 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bd37400-88ed-470b-b9be-93a2e5a6890f")
+		)
+		(pin "2"
+			(uuid "92fe4d95-125c-4466-a736-90768e59fa69")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 92.71 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609f85cb")
+		(property "Reference" "D17"
+			(at 94.742 68.6816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 94.742 70.993 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 97.155 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78bc8a85-723a-4abc-9c0d-dddc449ec069")
+		)
+		(pin "2"
+			(uuid "b95fd737-fb6b-4437-a891-685a895a37d7")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 118.11 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609f85d7")
+		(property "Reference" "D26"
+			(at 120.142 68.6816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 120.142 70.993 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 122.555 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d50af0a-01ab-4035-80c2-d4e9e69e6ed4")
+		)
+		(pin "2"
+			(uuid "842fba25-d6e7-4e57-8ce8-3d7667e44d79")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 81.28 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060a031f9")
+		(property "Reference" "MX15"
+			(at 82.1182 164.5158 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 82.1182 166.3954 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 65.405 170.815 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 65.405 170.815 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ef4d3659-b456-4936-bac8-7195a2c07b4f")
+		)
+		(pin "1"
+			(uuid "50f13f46-434a-4a04-993d-f1f091597641")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 80.01 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060a03223")
+		(property "Reference" "D16"
+			(at 82.042 176.6316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 82.042 178.943 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 84.455 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "516b3841-b38a-4211-b455-63a58be4a420")
+		)
+		(pin "2"
+			(uuid "19fe63b5-4c95-4dc3-9117-2362a242c1f8")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 161.29 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060a45abd")
+		(property "Reference" "D34"
+			(at 163.322 111.8616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 163.322 114.173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 165.735 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08f29780-757b-4440-b35f-2444d128c899")
+		)
+		(pin "2"
+			(uuid "efdf2649-fe9f-4111-b102-2aadd676c351")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 162.56 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060a45ac9")
+		(property "Reference" "MX33"
+			(at 163.3982 99.7458 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 163.3982 101.6254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 146.685 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d64648ce-93c2-4309-a62d-eeed389da6ab")
+		)
+		(pin "1"
+			(uuid "64e9caf5-c4af-4d34-a080-bd90b2cb2068")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 161.29 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060a482bf")
+		(property "Reference" "D33"
+			(at 163.322 90.2716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 163.322 92.583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 165.735 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e6b2145-bfa6-4c1a-b2c1-d1e013108242")
+		)
+		(pin "2"
+			(uuid "d4338dbc-da7a-446b-a198-43edfaebcf0a")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 162.56 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060a482cb")
+		(property "Reference" "MX32"
+			(at 163.3982 78.1558 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 163.3982 80.0354 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 146.685 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 84.455 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bfbaf4d2-ffdd-4118-84f5-34f16ade4c17")
+		)
+		(pin "1"
+			(uuid "967aca74-8e9f-430b-ba07-7a967c8c4475")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 132.08 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006177d99e")
+		(property "Reference" "MX30"
+			(at 132.9182 99.7458 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 132.9182 101.6254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 116.205 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dd33b8ef-ed24-4d60-a7b6-3431df6acda2")
+		)
+		(pin "1"
+			(uuid "f6e9a318-26b2-498f-8474-9138f70936cb")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 130.81 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006177d9a4")
+		(property "Reference" "D31"
+			(at 132.842 111.8616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 132.842 114.173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 135.255 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f81fcee5-2a00-47f7-b53f-4763bc711afa")
+		)
+		(pin "2"
+			(uuid "b05d4ece-5f44-4479-b365-3bf051e364c9")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 132.08 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006177d9b6")
+		(property "Reference" "MX31"
+			(at 132.9182 142.9258 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 132.9182 144.8054 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 116.205 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ef96da2e-ad22-4140-be84-23e0626e4781")
+		)
+		(pin "1"
+			(uuid "10e76b27-57cf-406a-a66c-39a1ee8e418e")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 130.81 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006177d9bc")
+		(property "Reference" "D32"
+			(at 132.842 155.0416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 132.842 157.353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 135.255 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 130.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d97bf77e-9484-4b59-8b19-4a9f9e887234")
+		)
+		(pin "2"
+			(uuid "c08f37df-553a-45b8-a9ff-982f5fc79719")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 162.56 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16c0af34-64e2-470b-bc15-e298e0c05dce")
+		(property "Reference" "MX34"
+			(at 163.3982 121.3358 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 163.3982 123.2154 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 146.685 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 127.635 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ccd6f625-c80e-4877-8be5-4583295a8a45")
+		)
+		(pin "1"
+			(uuid "2031a7b4-4be4-45ab-92a7-32c4fa17a06b")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 161.29 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a19e994-f2cc-486a-80b3-97e30ed62b73")
+		(property "Reference" "D36"
+			(at 163.322 155.0416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 163.322 157.353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 165.735 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 161.29 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82ecc3dd-106c-4fc9-b04b-7e48b6075a5b")
+		)
+		(pin "2"
+			(uuid "b91ba78c-067f-4b6f-9092-6d18e7fbb1bf")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 240.03 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "464ef462-50ee-4283-a529-8f4555cbf576")
+		(property "Reference" "R16"
+			(at 242.57 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "330R"
+			(at 242.57 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:R0805"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c032b79-94d1-4681-a597-6f3ed655535a")
+		)
+		(pin "2"
+			(uuid "a1ca93f3-cc86-4a1d-b9a0-2d782f3f54de")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bit0wulf-complete-rescue:MX-NoLED-MX_Alps_Hybrid")
+		(at 162.56 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fe7b204-aa9a-4379-b23c-9710164f619b")
+		(property "Reference" "MX35"
+			(at 163.3982 142.9258 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 163.3982 144.8054 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+			(at 146.685 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 149.225 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7afa40cb-f65b-4412-bde5-47451e482ccc")
+		)
+		(pin "1"
+			(uuid "30ab5b54-2964-480f-be6d-c1a2d2f9c6eb")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "MX35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 161.29 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78d82f99-13e6-491e-8c91-2c48aaed0d20")
+		(property "Reference" "D35"
+			(at 163.322 133.4516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 163.322 135.763 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 165.735 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 161.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c09bf68-f7a3-4706-beea-88790ac8e0f3")
+		)
+		(pin "2"
+			(uuid "b38dadf8-a2bb-45bf-9fd1-859e6afbe851")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 213.36 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "854bc863-7b9f-4ac5-b3b8-e73d372c282a")
+		(property "Reference" "#PWR056"
+			(at 213.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 213.741 46.4058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1b0506b-431b-46d5-8f8c-430072cdaf0d")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2c7920c-c36c-4675-bc57-ebf7fea75af1")
+		(property "Reference" "#PWR055"
+			(at 213.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.4743 34.8044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69a5efae-3b3c-4640-9609-6abfed8a9e76")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6676dec-daad-4913-9a6d-8218a300d1dc")
+		(property "Reference" "#PWR058"
+			(at 240.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.1443 124.9744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9a526c9-c9aa-42a3-b3b7-fc06fb1b0139")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 240.03 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b77f7ac4-5813-4d7c-a163-c43380454e42")
+		(property "Reference" "#PWR057"
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 240.411 92.1258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d21929d-5368-4bf9-9660-a5d528ca3f7a")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 41.91 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb81161e-36a1-434d-b649-f65bf0e773b3")
+		(property "Reference" "D2"
+			(at 43.942 68.6816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 43.942 70.993 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:SOD-523_L1.2-W0.8-LS1.6-RD-1"
+			(at 46.355 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2394eb2b-32ed-4760-a514-291ad45b400a")
+		)
+		(pin "2"
+			(uuid "ec06ff2d-d30e-4c4f-87a2-60d1afceddd1")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:3296W-1-102LF")
+		(at 238.76 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccc4d6ee-82e0-4735-ba89-0ce458378979")
+		(property "Reference" "R15"
+			(at 242.57 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:RES-ADJ-TH_3296W"
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/3296W-1-102LF/58119.html"
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistance:1kΩ Tolerance:±10% Tolerance:±10% Power(Watts):500mW Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Number of Turns:"
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "3296W-1-102LF"
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOURNS"
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C57089"
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1kΩ ±10%"
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b07972c1-01a0-4ec3-b1e6-fdd12a83818f")
+		)
+		(pin "1"
+			(uuid "495265e5-6613-4d9e-9c50-16f610dbbbb4")
+		)
+		(pin "3"
+			(uuid "4d2c04bd-08d3-490c-a774-946cbf87553e")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 240.03 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db9340b1-7fa2-4b00-86b9-295e60fbe0a0")
+		(property "Reference" "D37"
+			(at 241.808 115.6716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "POWER LED"
+			(at 241.808 117.983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 240.03 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23fd4389-c59f-478d-a796-52f2232cb14a")
+		)
+		(pin "2"
+			(uuid "98b9f17d-fa24-4979-af03-24914c9c18a0")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA_Lib:IDC Box 2X10 2.54MM")
+		(at 231.14 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f17c68ce-2005-4fc5-b5ae-487a9ef01015")
+		(property "Reference" "P2"
+			(at 215.9 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KEYB CONN 1"
+			(at 215.9 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:IDC-TH_20P-L33.0-W13.8-H-M-R2-C10-P2.54-S2.54-TR"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/2.54-2*10P%25E5%25BC%25AF%25E7%25AE%2580%25E7%2589%259B/9667.html"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Type:IDC Header Pitch:2.54mm Number of Positions or Pins:2x10P Current Rating:3A Holder Type:Right Angle Row Spacing:2.54mm Number of Rows:2 Number of PINs Per Row:10 Contact Material:Brass Contact Plating:- Operating Temperature:-40°C~+105°C Oper"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "2.54-2*10P弯简牛"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOOMELE(博穆精密)"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C9144"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "2.54mm 2x10P 排数:2 每排P数:10"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "965aeb3d-479e-44d6-b6a8-ee7a46fac7de")
+		)
+		(pin "3"
+			(uuid "b319e255-5a9a-4b9d-89ff-6f7713d87b42")
+		)
+		(pin "5"
+			(uuid "815ae9ee-56fe-4f39-97e5-cb63b94d4dcc")
+		)
+		(pin "7"
+			(uuid "d864fd65-33ab-4f52-8b7f-e92c7e9d894b")
+		)
+		(pin "9"
+			(uuid "ce97c730-0b57-47f1-b08d-020ca35b9e8c")
+		)
+		(pin "11"
+			(uuid "b8ebdee2-f969-4b81-aa05-05ae3daa1fb0")
+		)
+		(pin "13"
+			(uuid "b9aa9861-53d5-45b6-90d7-98b8e3a59f9a")
+		)
+		(pin "15"
+			(uuid "867a56cc-fb92-4bff-a5e4-eb62ea8a8343")
+		)
+		(pin "17"
+			(uuid "384c9cb7-f789-4a2a-913c-a90f5425b740")
+		)
+		(pin "19"
+			(uuid "e066708a-7c4d-41e5-a420-0cb6f1f7c4c2")
+		)
+		(pin "2"
+			(uuid "59e90ee2-4ebe-4e0c-90d6-bcaadd30c3c3")
+		)
+		(pin "4"
+			(uuid "92cf7caa-9120-43e8-8bc8-050943e83c68")
+		)
+		(pin "6"
+			(uuid "59f8d9de-edca-4318-a5b9-81f8fbd36ddf")
+		)
+		(pin "8"
+			(uuid "c30af5f4-8fb6-4758-9d79-605369eaac77")
+		)
+		(pin "10"
+			(uuid "d0bc1e2a-9561-4f3f-b47a-6ad1e37c38d1")
+		)
+		(pin "12"
+			(uuid "6971c4dc-bdff-4a70-a90d-1c5af390f402")
+		)
+		(pin "14"
+			(uuid "9b4287b2-cf16-48cf-b3b1-46226528de52")
+		)
+		(pin "16"
+			(uuid "64280788-f006-4db5-aa1a-ae89c98277d9")
+		)
+		(pin "18"
+			(uuid "21e731c8-06ed-462d-9fe7-5482336c9901")
+		)
+		(pin "20"
+			(uuid "4cad3505-0851-4a74-b253-464e4fa4ca0f")
+		)
+		(instances
+			(project "bitseithr-keyboard"
+				(path "/96774cd5-d98a-4628-a335-15c2c4a6bad9"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
