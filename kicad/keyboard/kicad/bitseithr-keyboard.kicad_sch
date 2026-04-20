@@ -3307,7 +3307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 27.305 127.635 0)
 			(effects
 				(font
@@ -3373,7 +3373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 40.005 127.635 0)
 			(effects
 				(font
@@ -3439,7 +3439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 78.105 127.635 0)
 			(effects
 				(font
@@ -3505,7 +3505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 90.805 127.635 0)
 			(effects
 				(font
@@ -3571,7 +3571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 103.505 127.635 0)
 			(effects
 				(font
@@ -3977,7 +3977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 27.305 106.045 0)
 			(effects
 				(font
@@ -4043,7 +4043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 40.005 106.045 0)
 			(effects
 				(font
@@ -4109,7 +4109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 52.705 106.045 0)
 			(effects
 				(font
@@ -4175,7 +4175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 65.405 106.045 0)
 			(effects
 				(font
@@ -4241,7 +4241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 78.105 106.045 0)
 			(effects
 				(font
@@ -4307,7 +4307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 90.805 106.045 0)
 			(effects
 				(font
@@ -4373,7 +4373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 103.505 106.045 0)
 			(effects
 				(font
@@ -4915,7 +4915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 27.305 84.455 0)
 			(effects
 				(font
@@ -4981,7 +4981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 40.005 84.455 0)
 			(effects
 				(font
@@ -5047,7 +5047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 78.105 84.455 0)
 			(effects
 				(font
@@ -5113,7 +5113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 90.805 84.455 0)
 			(effects
 				(font
@@ -5179,7 +5179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 103.505 84.455 0)
 			(effects
 				(font
@@ -5585,7 +5585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 27.305 149.225 0)
 			(effects
 				(font
@@ -5651,7 +5651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 40.005 149.225 0)
 			(effects
 				(font
@@ -5717,7 +5717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 52.705 149.225 0)
 			(effects
 				(font
@@ -5783,7 +5783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 65.405 149.225 0)
 			(effects
 				(font
@@ -5849,7 +5849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 78.105 149.225 0)
 			(effects
 				(font
@@ -5915,7 +5915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 90.805 149.225 0)
 			(effects
 				(font
@@ -5981,7 +5981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 103.505 149.225 0)
 			(effects
 				(font
@@ -6523,7 +6523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 27.305 62.865 0)
 			(effects
 				(font
@@ -6589,7 +6589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 52.705 62.865 0)
 			(effects
 				(font
@@ -6655,7 +6655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 78.105 62.865 0)
 			(effects
 				(font
@@ -6721,7 +6721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 103.505 62.865 0)
 			(effects
 				(font
@@ -6991,7 +6991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-2.25U"
 			(at 65.405 170.815 0)
 			(effects
 				(font
@@ -7193,7 +7193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 146.685 106.045 0)
 			(effects
 				(font
@@ -7327,7 +7327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 146.685 84.455 0)
 			(effects
 				(font
@@ -7393,7 +7393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 116.205 106.045 0)
 			(effects
 				(font
@@ -7527,7 +7527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 116.205 149.225 0)
 			(effects
 				(font
@@ -7661,7 +7661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 146.685 127.635 0)
 			(effects
 				(font
@@ -7865,7 +7865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:SMD_KEYBOARD-SW"
+		(property "Footprint" "clholm-kicad-library:MX-Hotswap-1U"
 			(at 146.685 149.225 0)
 			(effects
 				(font

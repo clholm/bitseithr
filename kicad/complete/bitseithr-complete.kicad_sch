@@ -11064,7 +11064,7 @@
 			)
 		)
 	)
-	(global_label "OUTPUT-1"
+	(global_label "OUTPUT-2"
 		(shape input)
 		(at 173.99 137.16 180)
 		(effects

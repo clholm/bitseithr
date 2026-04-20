@@ -41,3 +41,6 @@ fp-info-cache
 
 # stupid mac file
 .DS_Store
+
+# llm instructions
+.llm/*
