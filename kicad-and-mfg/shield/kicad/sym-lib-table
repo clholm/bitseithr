@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "bitseithr-shield")(type "KiCad")(uri "${KIPRJMOD}/bitseithr-shield.kicad_sym")(options "")(descr "Project symbols (corrected pin electrical types)"))
+  (lib (name "EasyEDA_Lib")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/EasyEDA_Lib/EasyEDA_Lib.elibz")(options "")(descr ""))
+)
